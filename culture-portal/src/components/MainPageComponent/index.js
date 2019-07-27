@@ -1,2 +1,2 @@
-import MainPageController from './MainPageComponent';
-export default MainPageController;
+import MainPageComponent from './MainPageComponent';
+export default MainPageComponent;
