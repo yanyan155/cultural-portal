@@ -1,5 +1,6 @@
 import React from "react";
 import PortalDescriptionComponent from "../../components/PortalDescriptionComponent/index";
+
 const Home = () => (
   // Портал дескрипшн компонент
   // Архитектор дня компонент
