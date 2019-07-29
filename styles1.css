@@ -2,5 +2,28 @@
     font-family: 'Lobster', cursive;
 }
 
+header {
+    height: 14rem;
+    background-image: url('assets/bg_header.jpg');
+    margin-bottom: 1.3rem;
+}
 
+h1 {
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.nav {
+    font-size: 1.3rem;
+}
+
+.dropdown-menu {
+    border: none;
+    min-width: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link {
+    padding-bottom: 0;
+}
 
