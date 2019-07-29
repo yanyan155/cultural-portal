@@ -27,9 +27,36 @@ h1 {
     padding-bottom: 0;
 }
 
+.row {
+    margin-left: 1.3rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.row .col-8 {
+    text-indent: 1.5rem;
+}
+
+.row p span {
+    color: red;
+}
+
+.col-4 {
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+    color: #0275d8;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+}
+
 footer {
     height: 5rem;
-    background: rgb(219, 218, 218);    
+    background: rgb(219, 218, 218);
 }
 
 footer p {
