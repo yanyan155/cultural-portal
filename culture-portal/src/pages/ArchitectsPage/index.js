@@ -42,10 +42,7 @@ class AllArchitects extends React.Component {
             </li>
           ))}
         </ul>
-        <ListOfArchitectsComponent
-          authors={this.state.filtered}
-          className="row"
-        />
+        <ListOfArchitectsComponent authors={this.state.filtered} />
       </div>
     );
   }

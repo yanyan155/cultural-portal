@@ -6,11 +6,7 @@ const LinkToTheArchitectPageComponent = props => {
     <div className="col-sm-6">
       <div className="card">
         <p>
-          <img
-            className="card-img-top"
-            src={`./assets/images/${props.img}`}
-            alt="Архитектор дня"
-          />
+          <img className="card-img-top" src={props.img} alt="Архитектор дня" />
         </p>
         <div className="card-body">
           <h5 className="card-title">
