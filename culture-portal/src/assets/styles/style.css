@@ -1,4 +1,7 @@
-
 * {
-    font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
+}
+
+main {
+  min-height: calc(100vh - 6rem);
 }
