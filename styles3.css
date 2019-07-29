@@ -64,7 +64,8 @@ th, td {
 
 footer {
     height: 5rem;
-    background: rgb(202, 199, 199);
+    background-image: url('assets/bg_header.jpg'); 
+    background-position: 50% 55%;  
 }
 
 footer p {
