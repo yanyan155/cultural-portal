@@ -10,7 +10,7 @@ import DeveloperTeamComponent from "../DeveloperTeamComponent";
 
 const MainPageComponent = props => {
   return (
-    <div className="container">
+    <div className="container main-page">
       <LanguageSelectionComponent />
       <NavigationComponent />
       <PortalDescriptionComponent />
