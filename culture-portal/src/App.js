@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Switch, Route } from "react-router-dom";
+import i18n from "./i18n";
 
 import Home from "./pages/MainPage";
 import AllArchitects from "./pages/ArchitectsPage";
@@ -27,12 +28,31 @@ const Main = () => (
   </main>
 );
 
-const App = () => (
-  <div>
-    <Header />
-    <Main />
-    <FooterComponent />
-  </div>
-);
+class App extends Component {
+  state = {
+    value: "ru"
+  };
+
+  handleChange = event => {
+    console.log(event.target);
+    console.log("selected val is ", event.target.value);
+    let newlang = event.target.value;
+    this.setState(prevState => ({ value: newlang }));
+    console.log("state value is", newlang);
+    i18n.changeLanguage(newlang);
+  };
+
+  render() {
+
+    return (
+      <div>
+        <Header langChange={this.handleChange} />
+        <Main />
+        <FooterComponent />
+      </div>
+    )
+  }
+
+}
 
 export default App;

@@ -3,8 +3,8 @@ import React from 'react';
 import Navigation from '../NavigationComponent';
 import './HeaderComponent.css';
 
-const Header = () => (
-    <Navigation />
+const Header = (langChange) => (
+    <Navigation langChange={langChange} />
     // Компонент выбора языка
 )
 
