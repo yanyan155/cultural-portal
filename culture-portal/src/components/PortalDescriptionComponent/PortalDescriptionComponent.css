@@ -1,0 +1,13 @@
+.row {
+  margin-left: 1.3rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.row .col-8 {
+  text-indent: 1.5rem;
+}
+
+.row p span {
+  color: red;
+}

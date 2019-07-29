@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import'./MainPageComponent.css';
-import LanguageSelectionComponent from '../LanguageSelectionComponent';
-import NavigationComponent from '../NavigationComponent';
-import PortalDescriptionComponent from '../PortalDescriptionComponent';
-import AuthorOfTheDayComponent from '../AuthorOfTheDayComponent';
-import DeveloperTeamComponent from '../DeveloperTeamComponent';
+import "./MainPageComponent.css";
+import LanguageSelectionComponent from "../LanguageSelectionComponent";
+import NavigationComponent from "../NavigationComponent";
+import PortalDescriptionComponent from "../PortalDescriptionComponent";
+import AuthorOfTheDayComponent from "../AuthorOfTheDayComponent";
+import DeveloperTeamComponent from "../DeveloperTeamComponent";
 
-const MainPageComponent = (props) => {
-  
+const MainPageComponent = props => {
   return (
     <div className="container">
       <LanguageSelectionComponent />
@@ -18,7 +17,7 @@ const MainPageComponent = (props) => {
       <AuthorOfTheDayComponent />
       <DeveloperTeamComponent />
     </div>
-  )
-}
+  );
+};
 
 export default MainPageComponent;
