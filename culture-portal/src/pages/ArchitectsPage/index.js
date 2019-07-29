@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchComponent from "../../components/SeacrhComponent/index";
 
+import ListOfArchitectsComponent from "../../components/ListOfArchitectsComponent/index";
+
 import ArchitectsAPI from "../../ArchitectsAPI";
 
-// это пример
 class AllArchitects extends React.Component {
   state = {
     filtered: ArchitectsAPI.all()
@@ -41,10 +42,13 @@ class AllArchitects extends React.Component {
             </li>
           ))}
         </ul>
+        <ListOfArchitectsComponent
+          authors={this.state.filtered}
+          className="row"
+        />
       </div>
     );
   }
 }
-// Компон ент Список архитекторов
 
 export default AllArchitects;

@@ -5,7 +5,7 @@ exports.frontmatter = {
       path: "/Ananich",
       name: "Yuri Stepanovich Ananich",
       date: "November 23, 1955 - February 28, 2015",
-      img: "ananich.jpg",
+      img: "Yury_Ananich.jpg",
       videoId: "LiSW2jgILeQ",
       vita:
         "Belarusian architect. Member of the Belarusian Union of Architects.",
