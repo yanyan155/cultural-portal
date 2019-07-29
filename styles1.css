@@ -27,3 +27,24 @@ h1 {
     padding-bottom: 0;
 }
 
+footer {
+    height: 5rem;
+    background: rgb(219, 218, 218);    
+}
+
+footer p {
+    text-align: center;
+    line-height: 0.8;
+}
+
+footer p a {
+    color: black;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+.first {
+    padding-top: 0.3rem;
+}
