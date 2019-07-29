@@ -1,0 +1,87 @@
+* {
+    font-family: 'Lobster', cursive;
+}
+
+header {
+    height: 14rem;
+    background-image: url('assets/bg_header.jpg');
+    margin-bottom: 1.3rem;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.nav {
+    font-size: 1.3rem;
+}
+
+.dropdown-menu {
+    border: none;
+    min-width: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link {
+    padding-bottom: 0;
+}
+
+p {
+    margin-left: 1.3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #0275d8;
+    text-align: center;
+}
+
+h4, th, td.year {
+    text-align: center;
+}
+
+th, td {
+    font-size: 1.2rem;
+}
+
+.video {
+    margin: 3rem;
+    text-align: center;
+}
+
+.const_menu {
+    position: fixed;
+    margin-left: 72rem;
+}
+
+footer {
+    height: 5rem;
+    background: rgb(202, 199, 199);    
+}
+
+footer p {
+    text-align: center;
+    line-height: 0.8;
+    font-size: 1rem;
+}
+
+footer p a {
+    color: black;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+.first {
+    padding-top: 0.3rem;
+}
+
