@@ -29,15 +29,20 @@ const Main = () => (
 );
 
 class App extends Component {
-  state = {
-    value: "ru"
-  };
+  constructor(props) {
+    super(props);
+    this.changeLanguage = this.changeLanguage.bind(this);
+    this.state = { value: "ru" };
+  }
 
-  handleChange = event => {
-    console.log(event.target);
-    console.log("selected val is ", event.target.value);
-    let newlang = event.target.value;
-    this.setState(prevState => ({ value: newlang }));
+  changeLanguage = function (event) {
+    let target = event.target;
+    if (event.target.classList.contains('flag-image')) {
+      target = event.target.parentNode;
+    }
+    console.log("selected val is ", target.value);
+    let newlang = target.value;
+    this.setState({ value: newlang });
     console.log("state value is", newlang);
     i18n.changeLanguage(newlang);
   };
@@ -45,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header langChange={this.handleChange} />
+        <Header langChange={this.changeLanguage} />
         <Main />
         <FooterComponent />
       </div>

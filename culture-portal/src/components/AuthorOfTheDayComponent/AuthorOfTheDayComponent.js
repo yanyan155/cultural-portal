@@ -4,9 +4,9 @@ import authorOfTheDay from "../../assets/images/Yury_Ananich.jpg";
 
 const AuthorOfTheDayComponent = props => {
   return (
-    <div className="col-12 col-lg-4">
+    <div>
       <h3> Архитектор дня </h3>
-      <p>
+      <p className="img">
         <img src={authorOfTheDay} alt="Художник дня" />
       </p>
       <h4>Юрий Степанович Ананич</h4>

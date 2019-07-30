@@ -10,7 +10,6 @@ i18n
     .init({
         debug: true,
         lng: "ru",
-        fallbackLng: "ru", // use en if detected lng is not available
 
         keySeparator: false, // we do not use keys in form messages.welcome
 
