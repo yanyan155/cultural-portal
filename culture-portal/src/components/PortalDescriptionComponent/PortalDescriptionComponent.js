@@ -1,5 +1,6 @@
 import React from "react";
 import AuthorOfTheDayComponent from "../AuthorOfTheDayComponent/AuthorOfTheDayComponent";
+import MemberOfTheTeamComponent from "../MemberOfTheTeamComponent/MemberOfTheTeamComponent";
 import "./PortalDescriptionComponent.css";
 
 const PortalDescriptionComponent = props => {
@@ -83,7 +84,10 @@ const PortalDescriptionComponent = props => {
             разнообразные стили и направления.
           </p>
         </span>
-        <AuthorOfTheDayComponent className="col-12 col-lg-4" />
+        <div className="col-12 col-lg-4">
+        <AuthorOfTheDayComponent />
+        <MemberOfTheTeamComponent />
+        </div>
       </span>
     </div>
   );
