@@ -4,7 +4,7 @@ import LinkToTheArchitectPageComponent from "../LinkToTheArchitectPageComponent/
 
 const ListOfArchitectsComponent = props => {
   return (
-    <div className="row">
+    <div className="architect-page">
       {props.authors.map((item, index) => {
         return (
           <LinkToTheArchitectPageComponent
