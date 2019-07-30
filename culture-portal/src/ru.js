@@ -232,5 +232,68 @@ exports.frontmatter = {
         },
       ],
     },
+    {
+      id: '4',
+      path: '/Karako',
+      name: 'Виктор Иванович Карако',
+      date: '29 июля 1948 - н.в',
+      img: 'karako.jpg',
+      videoId: 'TkaLjjNj8Ls',
+      vita:
+        'Белорусский архитектор, член правления Белорусского союза архитекторов',
+      authorOfTheDay: 'false',
+      lng: 'ru',
+      birthPlace: 'СССР',
+      timelineData: [
+        {
+          date: '1966—1972',
+          text:
+            'Учился на кафедре архитектуры Белорусского политехнического института',
+        },
+        {
+          date: '1972—1976',
+          text:
+            'Работал архитектором, старшим архитектором, главным архитектор проектов, руководителем мастерской в «БЕЛГОСПРОЕКТе».',
+        },
+        {
+          date: '1976—1982',
+          text:
+            'Руководитель группы архитекторов, главный архитектор проектов, руководитель мастерской БелНИИПградостроительства',
+        },
+        {
+          date: '1982';,
+          text:
+            'Стал лауреатом премии Ленинского Комсомола Белоруссии в области архитектуры за проект дворца молодёжи в г. Новополоцке.',
+        },
+      ],
+      work: [
+        {
+          title: 'Молодёжный центр в г. Новополоцк',
+          width: 53.898,
+          length: 27.56,
+          date: '1970',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg',
+        },
+        {
+          title:
+            'Реконструкция школы 4 в г. Минск',
+          width: 53.898,
+          length: 27.551,
+          date: '1982',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/School_4_Minsk.jpg/330px-School_4_Minsk.jpg',
+        },
+        {
+          title:
+            'Реконструкция здания банка по улице Заславской, 10',
+          width: 53.898,
+          length: 27.551,
+          date: '2004',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/330px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg',
+        },  
+      ],
+    },
   ],
 }

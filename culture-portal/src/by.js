@@ -229,5 +229,67 @@ exports.frontmatter = {
         },
       ],
     },
+    {
+      id: '4',
+      path: '/Karako',
+      name: 'Віктар Іванавіч Карака',
+      date: '29 июля 1948 - н.ч',
+      img: 'karako.jpg',
+      videoId: 'TkaLjjNj8Ls',
+      vita: 'Беларускі архітэктар, член праўлення Беларускага саюза архітэктараў',
+      authorOfTheDay: 'false',
+      lng: 'by',
+      birthPlace: 'СССР',
+      timelineData: [
+        {
+          date: '1966—1972',
+          text:
+            'Вучыўся на кафедры архітэктуры Беларускага політэхнічнага інстытута',
+        },
+        {
+          date: '1972—1976',
+          text:
+            'Працаваў архітэктарам, старэйшым архітэктарам, галоўным архітэктар праектаў, кіраўніком майстэрні ў «Белдзяржпраект».',
+        },
+        {
+          date: '1976—1982';,
+          text:
+            'Кіраўнік групы архітэктараў, галоўны архітэктар праектаў, кіраўнік майстэрні БелНИИПградостроительства',
+        },
+        {
+          date: '1982';,
+          text:
+            'Стаў лаўрэатам прэміі Ленінскага Камсамола Беларусі ў галіне архітэктуры за праект палаца моладзі ў г. Наваполацку.',
+        },
+      ],
+      work: [
+        {
+          title: 'Моладзевы цэнтр у г. Наваполацк',
+          width: 53.898,
+          length: 27.56,
+          date: '1970',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg',
+        },
+        {
+          title:
+            'Рэканструкцыя школы 4 у г. Мінск',
+          width: 53.898,
+          length: 27.551,
+          date: '1982',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/School_4_Minsk.jpg/330px-School_4_Minsk.jpg',
+        },
+        {
+          title:
+            'Рэканструкцыя будынка банка па вуліцы Заслаўскай, 10',
+          width: 53.898,
+          length: 27.551,
+          date: '2004',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/330px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg',
+        },
+      ],
+    },
   ],
 }
