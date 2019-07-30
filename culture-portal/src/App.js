@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Switch, Route } from "react-router-dom";
+import i18n from "./i18n";
 
 import Home from "./pages/MainPage";
 import AllArchitects from "./pages/ArchitectsPage";
@@ -27,12 +28,35 @@ const Main = () => (
   </main>
 );
 
-const App = () => (
-  <div>
-    <Header />
-    <Main />
-    <FooterComponent />
-  </div>
-);
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.changeLanguage = this.changeLanguage.bind(this);
+    this.state = { value: "ru" };
+  }
+
+  changeLanguage = function (event) {
+    let target = event.target;
+    if (event.target.classList.contains('flag-image')) {
+      target = event.target.parentNode;
+    }
+    console.log("selected val is ", target.value);
+    let newlang = target.value;
+    this.setState({ value: newlang });
+    console.log("state value is", newlang);
+    i18n.changeLanguage(newlang);
+  };
+
+  render() {
+    return (
+      <div>
+        <Header langChange={this.changeLanguage} />
+        <Main />
+        <FooterComponent />
+      </div>
+    )
+  }
+
+}
 
 export default App;
