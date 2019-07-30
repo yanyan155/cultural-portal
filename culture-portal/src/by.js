@@ -358,5 +358,67 @@ exports.frontmatter = {
         },
       ],
     },
+    {
+      id: '6',
+      path: '/Paolo',
+      name: 'Паола Антоніа Даменіка Фантана',
+      date: '28 кастрычніка 1696 - 17 сакавіка 1765',
+      img: 'paolo.jpg',
+      videoId: 'jsh3rExmffw',
+      vita: 'Італьянскі архітэктар, які працаваў у Рэчы Паспалітай',
+      authorOfTheDay: 'false',
+      lng: 'by',
+      birthPlace: 'Італія',
+      timelineData: [
+        {
+          date: '1730',
+          text:
+            'Уступіў у шлюб з першай жонкай Марыянай Суфчинской',
+        },
+        {
+          date: '1730 - 1740',
+          text:
+            'Атрымаў званне паручніка артылерыі Вялікага Княства Літоўскага',
+        },
+        {
+          date: '1745';,
+          text:
+            'Вярнуўся ў Італію, аднак ужо ў наступным годзе падпісаў новы кантракт на службу пры двары князя Паўла Карла Сангушка, зараз ужо ў Ізяславе',
+        },
+        {
+          date: '1748';,
+          text:
+            'Пасля смерці жонкі, ажаніўся паўторна з Тэрэзай Ромайрони',
+        },
+      ],
+      work: [
+        {
+          title: 'Палац князёў Сангушка',
+          width: 53.898,
+          length: 27.56,
+          date: '1754—1770',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png/250px-%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png',
+        },
+        {
+          title:
+            'Спаса-Праабражэнскі кафедральны сабор',
+          width: 53.898,
+          length: 27.551,
+          date: '1758—1760',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinnytsia-orthodox-church-1.jpg/290px-Vinnytsia-orthodox-church-1.jpg',
+        },
+        {
+          title:
+            'Вялікая сінагога (Влодава)',
+          width: 53.898,
+          length: 27.551,
+          date: '1764 - 1774',
+          img:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/W%C5%82odawa_Great_Synagogue_46.jpg/250px-W%C5%82odawa_Great_Synagogue_46.jpg',
+        }, 
+      ],
+    },
   ],
 }
