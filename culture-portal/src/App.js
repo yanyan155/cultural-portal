@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import i18n from "./i18n";
 
@@ -43,16 +43,14 @@ class App extends Component {
   };
 
   render() {
-
     return (
       <div>
         <Header langChange={this.handleChange} />
         <Main />
         <FooterComponent />
       </div>
-    )
+    );
   }
-
 }
 
 export default App;
