@@ -20,11 +20,11 @@ const Arhitect = props => {
     // Компонент Галерея
     // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
     <div>
-      <TimeLineComponent />
-      <h1>
-        {player.name} (#{player.number})
-      </h1>
       <Link to="/architects">Назад</Link>
+      <h1>
+        {player.name} (#{player.id})
+      </h1>
+      <TimeLineComponent timeline={player.timelineData} />
     </div>
   );
 };

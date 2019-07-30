@@ -9,6 +9,7 @@ const ListOfArchitectsComponent = props => {
         return (
           <LinkToTheArchitectPageComponent
             key={index}
+            id={item.id}
             name={item.name}
             date={item.date}
             img={item.img}

@@ -6,26 +6,30 @@ const TimeLineComponent = props => {
   return (
     <div className="container">
       <Timeline lineColor={"#ddd"}>
-        {props.timeline.timelineData.map((item, index) => {
+        {props.timeline.map((item, index) => {
           return (
             <TimelineItem
               key={index}
               dateText={item.date}
-              style={{ color: "#e86971" }}
+              style={{ color: "#0a02ab" }}
               dateInnerStyle={{
-                background: "#61b8ff",
-                color: "#000",
-                fontSize: "20px"
+                backgroundImage:
+                  "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
+                color: "#fff",
+                fontSize: "22px",
+                fontWeight: "400"
               }}
               bodyContainerStyle={{
-                background: "#ddd",
+                backgroundImage:
+                  "linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)",
                 padding: "20px",
                 borderRadius: "8px",
-                boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+                boxShadow: "0.5rem 0.5rem 2rem 0 #a1c4fd",
+                color: "#0a02ab"
               }}
             >
               <h3>{item.date}</h3>
-              {item.text}
+              <p>{item.text}</p>
             </TimelineItem>
           );
         })}

@@ -9,8 +9,7 @@ const ArchitectsAPI = {
     return this.architects;
   },
   get: function(id) {
-    const isArchitect = p => p.id === id;
-    return this.architects.find(isArchitect);
+    return this.architects[id - 1];
   }
 };
 
