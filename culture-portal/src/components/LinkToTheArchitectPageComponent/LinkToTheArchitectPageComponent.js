@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LinkToTheArchitectPageComponent.css";
 
 const LinkToTheArchitectPageComponent = props => {
@@ -13,7 +14,9 @@ const LinkToTheArchitectPageComponent = props => {
           <br /> {props.date}
         </h5>
         <p className="card-text">{props.description} </p>
-        <button className="btn btn-primary">Больше информации</button>
+        <Link to={`/architects/${props.id}`}>
+          <button className="btn btn-primary">Больше информации</button>
+        </Link>
       </div>
     </div>
   );
