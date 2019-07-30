@@ -84,8 +84,10 @@ const PortalDescriptionComponent = props => {
             разнообразные стили и направления.
           </p>
         </span>
-        <AuthorOfTheDayComponent className="col-12 col-lg-4" />
-        <MemberOfTheTeamComponent/>
+        <div className="col-12 col-lg-4">
+        <AuthorOfTheDayComponent />
+        <MemberOfTheTeamComponent />
+        </div>
       </span>
     </div>
   );

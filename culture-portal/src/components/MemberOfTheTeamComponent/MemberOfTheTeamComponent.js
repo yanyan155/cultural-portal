@@ -6,7 +6,7 @@ import linkOfDev from '/';
 const MemberOfTheTeamComponent = (props) => {
 
   return (
-    <div className="col-4">
+    <div className="member">
       <h3>Коллектив авторов</h3>
       <div className="cub">
         <div className="cubspinner">
