@@ -5,7 +5,7 @@ exports.frontmatter = {
       path: "/Ananich",
       name: "Yuri Stepanovich Ananich",
       date: "November 23, 1955 - February 28, 2015",
-      img: "Yury_Ananich.jpg",
+      img: "images/Ananich.jpg",
       videoId: "LiSW2jgILeQ",
       vita:
         "Belarusian architect. Member of the Belarusian Union of Architects.",
@@ -78,7 +78,7 @@ exports.frontmatter = {
       path: "/Levin",
       name: "Leonid Mendelevich Levin",
       date: "July 25, 1936 - March 1, 2014",
-      img: "levin.jpg",
+      img: "images/Levin.jpg",
       videoId: "qoWJgqu47gA",
       vita: "Honored Architect of the Republic of Belarus.",
       authorOfTheDay: "false",
@@ -158,7 +158,7 @@ exports.frontmatter = {
       path: "/Dzuzeppe",
       name: "Giuseppe de Sacco",
       date: "1735 — 1798",
-      img: "dzuzeppe.jpg",
+      img: "images/Sakko.jpg",
       videoId: "qoWJgqu47gA",
       vita:
         "One of the largest architects of developed baroque and classicism working in the territory of modern Belarus",
@@ -230,7 +230,7 @@ exports.frontmatter = {
       path: "/Karako",
       name: "Victor Karako",
       date: "July 29, 1948 - nowadays",
-      img: "karako.jpg",
+      img: "images/Karako.jpg",
       videoId: "TkaLjjNj8Ls",
       vita:
         "Belarusian Architect, Member of the Board of the Belarusian Union of Architects",
@@ -292,7 +292,7 @@ exports.frontmatter = {
       path: "/Langbard",
       name: "Iosif Langbard",
       date: "July 29, 1948 - nowadays",
-      img: "langbard.jpg",
+      img: "images/Langbard.jpg",
       videoId: "dlQIlW3V-iU",
       vita:
         "Belarusian Soviet architect, Honored Art Worker of the Belarusian SSR",
@@ -358,7 +358,7 @@ exports.frontmatter = {
       path: "/Paolo",
       name: "Paolo Antonio Domenico Fontana",
       date: "October 28, 1696 - March 17, 1765",
-      img: "paolo.jpg",
+      img: "images/Fontana.jpg",
       videoId: "jsh3rExmffw",
       vita: "Italian architect who worked in the Commonwealth",
       authorOfTheDay: "false",

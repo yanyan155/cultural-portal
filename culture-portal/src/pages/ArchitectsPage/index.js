@@ -35,13 +35,6 @@ class AllArchitects extends React.Component {
     return (
       <div>
         <SearchComponent onChange={this.onChange} />
-        <ul>
-          {this.state.filtered.map((p, index) => (
-            <li key={index}>
-              <Link to={`/architects/`}>{p.name}</Link>
-            </li>
-          ))}
-        </ul>
         <ListOfArchitectsComponent authors={this.state.filtered} />
       </div>
     );
