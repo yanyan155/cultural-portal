@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import TimeLineComponent from "../../components/TimeLineComponent/index";
+import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
 
 import ArchitectsAPI from "../../ArchitectsAPI";
 
@@ -25,6 +26,7 @@ const Arhitect = props => {
         {player.name} (#{player.id})
       </h1>
       <TimeLineComponent timeline={player.timelineData} />
+      <ListOfWorksComponent works={player.work} />
     </div>
   );
 };

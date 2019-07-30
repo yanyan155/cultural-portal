@@ -5,6 +5,7 @@ import "./TimeLineComponent.css";
 const TimeLineComponent = props => {
   return (
     <div className="container">
+      <h3>Timeline</h3>
       <Timeline lineColor={"#ddd"}>
         {props.timeline.map((item, index) => {
           return (
