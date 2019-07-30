@@ -1,5 +1,6 @@
 import React from "react";
 import AuthorOfTheDayComponent from "../AuthorOfTheDayComponent/AuthorOfTheDayComponent";
+import MemberOfTheTeamComponent from "../MemberOfTheTeamComponent/MemberOfTheTeamComponent";
 import "./PortalDescriptionComponent.css";
 
 const PortalDescriptionComponent = props => {
@@ -84,6 +85,7 @@ const PortalDescriptionComponent = props => {
           </p>
         </span>
         <AuthorOfTheDayComponent className="col-12 col-lg-4" />
+        <MemberOfTheTeamComponent/>
       </span>
     </div>
   );
