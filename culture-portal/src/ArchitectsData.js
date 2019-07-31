@@ -353,7 +353,7 @@ exports.frontmatter = {
       id: "6",
       path: "paolo",
       name: "name",
-      date: "",
+      date: "date",
       img: "images/Fontana.jpg",
       videoId: "jsh3rExmffw",
       vita: "vita",

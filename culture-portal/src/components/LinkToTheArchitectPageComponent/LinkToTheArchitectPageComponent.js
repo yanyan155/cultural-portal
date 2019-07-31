@@ -12,7 +12,7 @@ const LinkToTheArchitectPageComponent = props => {
       <div className="card-body">
         <h5 className="card-title">
           {i18next.t(`${props.link}:${props.name}`)}
-          <br /> {props.date}
+          <br />  {i18next.t(`${props.link}:${props.date}`)}
         </h5>
         <p className="card-text"> {i18next.t(`${props.link}:${props.description}`)}</p>
         <Link to={`/architects/${props.link}`}>
