@@ -7,26 +7,22 @@ exports.frontmatter = {
       date: "date",
       img: "images/Ananich.jpg",
       videoId: "LiSW2jgILeQ",
-      vita:
-        "vita",
+      vita: "vita",
       authorOfTheDay: "true",
       lng: "en",
       birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1978",
-          text:
-            "timeline1"
+          text: "timeline1"
         },
         {
           date: "1979-2009",
-          text:
-            "timeline2"
+          text: "timeline2"
         },
         {
           date: "2009",
-          text:
-            "timeline3"
+          text: "timeline3"
         },
         {
           date: "2015",

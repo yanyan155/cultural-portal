@@ -4,7 +4,7 @@
 // имортируем и используем в своем компоненте.
 
 const ArchitectsAPI = {
-  architects: require("./en").frontmatter.authors,
+  architects: require("./ArchitectsData").frontmatter.authors,
   all: function () {
     return this.architects;
   },
