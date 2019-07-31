@@ -1,11 +1,11 @@
 import React from "react";
-import i18next from 'i18next';
+import i18next from "i18next";
 
 import "./ListOfWorksComponent.css";
 
 const ListOfWorksComponent = props => {
   return (
-    <div className="container">
+    <div className="container" id="works-of-author">
       <h3>Значимые работы архитектора</h3>
       <table className="table table-striped">
         <thead>

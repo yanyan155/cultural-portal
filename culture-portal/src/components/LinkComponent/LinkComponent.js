@@ -1,13 +1,12 @@
-import React from 'react';
-import'./LinkComponent.css';
+import React from "react";
+import "./LinkComponent.css";
 
-const LinkComponent = (props) => {
-  
+const LinkComponent = props => {
   return (
-    <div className="container">
-      LinkComponent
-    </div>
-  )
-}
+    <a href={props.link} className="btn btn-primary">
+      <i className={props.className} aria-hidden="true" />
+    </a>
+  );
+};
 
 export default LinkComponent;
