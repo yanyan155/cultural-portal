@@ -1,47 +1,32 @@
 import React from "react";
 import "./MemberOfTheTeamComponent.css";
-import MemberOfTeam from "../../assets/images/Yury_Ananich.jpg";
-import linkOfDev from "/";
+import { frontmatter } from "../../authors";
 
 const MemberOfTheTeamComponent = props => {
+  const listOfDevelopers = frontmatter.authors;
+
   return (
     <div className="member">
       <h3>Коллектив авторов</h3>
       <div className="cub">
         <div className="cubspinner">
-          <div className="size1">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              {" "}
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
-          <div className="size2">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
-          <div className="size3">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              {" "}
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
-          <div className="size4">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
-          <div className="size5">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              {" "}
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
-          <div className="size6">
-            <a href={linkOfDev} target="_blank" rel="noopener noreferrer">
-              <img src={MemberOfTeam} alt="Yury_Ananich" />
-            </a>
-          </div>
+          {listOfDevelopers.map((item, index) => {
+            return (
+              <div className={`size${index + 1}`} key={index}>
+                <a
+                  href={item.gitLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={item.imgPath} alt="Yury_Ananich" />
+                  <p className="developer-info">
+                    {item.name}
+                    {`(${item.nickname})`}
+                  </p>
+                </a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
