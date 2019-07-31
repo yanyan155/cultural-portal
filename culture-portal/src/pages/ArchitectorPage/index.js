@@ -24,9 +24,9 @@ const Arhitect = props => {
     // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
     <div>
       <Link to="/architects">Назад</Link>
-      <h2>
+      <h1>
         {i18next.t(`${player.path}:${player.name}`)}
-      </h2>
+      </h1>
       <TimeLineComponent author={player} />
       <ListOfWorksComponent author={player} />
     </div>
