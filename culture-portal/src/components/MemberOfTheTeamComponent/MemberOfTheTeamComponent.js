@@ -18,7 +18,7 @@ const MemberOfTheTeamComponent = props => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={item.imgPath} alt="Yury_Ananich" />
+                  <img src={item.imgPath} alt="Member of The Team" />
                   <p className="developer-info">
                     {item.name}
                     {`(${item.nickname})`}
