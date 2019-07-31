@@ -1,5 +1,5 @@
 exports.frontmatter = {
-  authors : [
+  authors: [
     {
       id: '1',
       path: '/Ananich',
@@ -211,7 +211,7 @@ exports.frontmatter = {
           date: 'XVIII век',
           img:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/225px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG',
-        },  
+        },
         {
           title:
             'Ансамбль площади Тизенгауза',
@@ -262,169 +262,169 @@ exports.frontmatter = {
         },
         {
           date: '1982';,
-          text:
-            'Стал лауреатом премии Ленинского Комсомола Белоруссии в области архитектуры за проект дворца молодёжи в г. Новополоцке.',
+        text:
+        'Стал лауреатом премии Ленинского Комсомола Белоруссии в области архитектуры за проект дворца молодёжи в г. Новополоцке.',
         },
-      ],
-      work: [
-        {
-          title: 'Молодёжный центр в г. Новополоцк',
-          width: 53.898,
-          length: 27.56,
-          date: '1970',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg',
-        },
-        {
-          title:
-            'Реконструкция школы 4 в г. Минск',
-          width: 53.898,
-          length: 27.551,
-          date: '1982',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/School_4_Minsk.jpg/330px-School_4_Minsk.jpg',
-        },
-        {
-          title:
-            'Реконструкция здания банка по улице Заславской, 10',
-          width: 53.898,
-          length: 27.551,
-          date: '2004',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/330px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg',
-        },  
-      ],
+  ],
+  work: [
+    {
+      title: 'Молодёжный центр в г. Новополоцк',
+      width: 53.898,
+      length: 27.56,
+      date: '1970',
+      img:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg',
     },
     {
-      id: '5',
-      path: '/Langbard',
-      name: 'Иосиф Григорьевич Лангбард',
-      date: '29 июля 1948 - н.в',
-      img: 'langbard.jpg',
-      videoId: 'dlQIlW3V-iU',
-      vita:
-        'Белорусский советский архитектор, заслуженный деятель искусств Белорусской ССР',
-      authorOfTheDay: 'false',
-      lng: 'ru',
-      birthPlace: 'СССР',
-      timelineData: [
-        {
-          date: '1907',
-          text:
-            'Переехал в Санкт-Петербург, где успешно выдержал экзамены в Высшее художественное училище при Императорской академии художеств на архитектурный факультет',
-        },
-        {
-          date: '1923',
-          text:
-            'Архитектурный проект Лангбарда, в числе сорока семи работ других авторов, участвовал в конкурсе проектов Дворца труда в Москве — главного общественного здания СССР',
-        },
-        {
-          date: '1929',
-          text:
-            'Выиграл всесоюзный конкурс на лучший проект Дома правительства Белорусской ССР',
-        },
-        {
-          date: '1926 - 1927';,
-          text:
-            'Лангбард выполнил конкурсный проект трёхсотквартирного жилого дома для рабочих завода «Красный треугольник» в Ленинграде',
-        },
-        {
-          date: '1937';,
-          text:
-            'Творчество архитектора получило мировое признание, года Иосиф Лангбард стал обладателем Гран-При Всемирной выставки в Париже',
-        },
-      ],
-      work: [
-        {
-          title: 'Дом правительства Республики Беларусь',
-          width: 53.898,
-          length: 27.56,
-          date: '1930-1934',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gouvernementbelarus.JPG/300px-Gouvernementbelarus.JPG',
-        },
-        {
-          title:
-            'Центральный Дом офицеров',
-          width: 53.898,
-          length: 27.551,
-          date: '1934-1939',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG/250px-%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG',
-        },
-        {
-          title:
-            'Дом Советов',
-          width: 53.898,
-          length: 27.551,
-          date: '1935',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg/300px-%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg',
-        },  
-      ],
+      title:
+        'Реконструкция школы 4 в г. Минск',
+      width: 53.898,
+      length: 27.551,
+      date: '1982',
+      img:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/School_4_Minsk.jpg/330px-School_4_Minsk.jpg',
     },
     {
-      id: '6',
-      path: '/Paolo',
+      title:
+        'Реконструкция здания банка по улице Заславской, 10',
+      width: 53.898,
+      length: 27.551,
+      date: '2004',
+      img:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/330px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg',
+    },
+  ],
+},
+  {
+    id: '5',
+    path: '/Langbard',
+    name: 'Иосиф Григорьевич Лангбард',
+    date: '29 июля 1948 - н.в',
+    img: 'langbard.jpg',
+    videoId: 'dlQIlW3V-iU',
+    vita:
+      'Белорусский советский архитектор, заслуженный деятель искусств Белорусской ССР',
+    authorOfTheDay: 'false',
+    lng: 'ru',
+    birthPlace: 'СССР',
+    timelineData: [
+      {
+        date: '1907',
+        text:
+          'Переехал в Санкт-Петербург, где успешно выдержал экзамены в Высшее художественное училище при Императорской академии художеств на архитектурный факультет',
+      },
+      {
+        date: '1923',
+        text:
+          'Архитектурный проект Лангбарда, в числе сорока семи работ других авторов, участвовал в конкурсе проектов Дворца труда в Москве — главного общественного здания СССР',
+      },
+      {
+        date: '1929',
+        text:
+          'Выиграл всесоюзный конкурс на лучший проект Дома правительства Белорусской ССР',
+      },
+      {
+        date: '1926 - 1927';,
+      text:
+      'Лангбард выполнил конкурсный проект трёхсотквартирного жилого дома для рабочих завода «Красный треугольник» в Ленинграде',
+        },
+  {
+    date: '1937';,
+    text:
+      'Творчество архитектора получило мировое признание, года Иосиф Лангбард стал обладателем Гран-При Всемирной выставки в Париже',
+  },
+      ],
+work: [
+  {
+    title: 'Дом правительства Республики Беларусь',
+    width: 53.898,
+    length: 27.56,
+    date: '1930-1934',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gouvernementbelarus.JPG/300px-Gouvernementbelarus.JPG',
+  },
+  {
+    title:
+      'Центральный Дом офицеров',
+    width: 53.898,
+    length: 27.551,
+    date: '1934-1939',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG/250px-%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG',
+  },
+  {
+    title:
+      'Дом Советов',
+    width: 53.898,
+    length: 27.551,
+    date: '1935',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg/300px-%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg',
+  },
+],
+    },
+{
+  id: '6',
+    path: '/Paolo',
       name: 'Паоло Антонио Доменико Фонтана',
-      date: '28 октября 1696 - 17 марта 1765',
-      img: 'paolo.jpg',
-      videoId: 'jsh3rExmffw',
-      vita:
-        'Итальянский архитектор, работавший в Речи Посполитой',
-      authorOfTheDay: 'false',
+        date: '28 октября 1696 - 17 марта 1765',
+          img: 'paolo.jpg',
+            videoId: 'jsh3rExmffw',
+              vita:
+  'Итальянский архитектор, работавший в Речи Посполитой',
+    authorOfTheDay: 'false',
       lng: 'ru',
-      birthPlace: 'Италия',
-      timelineData: [
-        {
-          date: '1730',
-          text:
-            'Вступил в брак с первой женой Марианной Суфчинской',
-        },
-        {
-          date: '1730 - 1740',
-          text:
-            'Получил звание поручика артиллерии Великого Княжества Литовского',
-        },
-        {
-          date: '1745',
-          text:
-            'Вернулся в Италию, однако уже в следующем году подписал новый контракт на службу при дворе князя Павла Карла Сангушко, теперь уже в Изяславе',
-        },
-        {
-          date: '1748';,
-          text:
+        birthPlace: 'Италия',
+          timelineData: [
+            {
+              date: '1730',
+              text:
+                'Вступил в брак с первой женой Марианной Суфчинской',
+            },
+            {
+              date: '1730 - 1740',
+              text:
+                'Получил звание поручика артиллерии Великого Княжества Литовского',
+            },
+            {
+              date: '1745',
+              text:
+                'Вернулся в Италию, однако уже в следующем году подписал новый контракт на службу при дворе князя Павла Карла Сангушко, теперь уже в Изяславе',
+            },
+            {
+              date: '1748';,
+            text:
             'После смерти жены, женился повторно с Терезой Ромайрони',
         },
       ],
-      work: [
-        {
-          title: 'Дворец князей Сангушко',
-          width: 53.898,
-          length: 27.56,
-          date: '1754—1770',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png/250px-%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png',
-        },
-        {
-          title:
-            'Спасо-Преображенский кафедральный собор',
-          width: 53.898,
-          length: 27.551,
-          date: '1758—1760',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinnytsia-orthodox-church-1.jpg/290px-Vinnytsia-orthodox-church-1.jpg',
-        },
-        {
-          title:
-            'Большая синагога (Влодава)',
-          width: 53.898,
-          length: 27.551,
-          date: '1764 - 1774',
-          img:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/W%C5%82odawa_Great_Synagogue_46.jpg/250px-W%C5%82odawa_Great_Synagogue_46.jpg',
-        },  
-      ],
+work: [
+  {
+    title: 'Дворец князей Сангушко',
+    width: 53.898,
+    length: 27.56,
+    date: '1754—1770',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png/250px-%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png',
+  },
+  {
+    title:
+      'Спасо-Преображенский кафедральный собор',
+    width: 53.898,
+    length: 27.551,
+    date: '1758—1760',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinnytsia-orthodox-church-1.jpg/290px-Vinnytsia-orthodox-church-1.jpg',
+  },
+  {
+    title:
+      'Большая синагога (Влодава)',
+    width: 53.898,
+    length: 27.551,
+    date: '1764 - 1774',
+    img:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/W%C5%82odawa_Great_Synagogue_46.jpg/250px-W%C5%82odawa_Great_Synagogue_46.jpg',
+  },
+],
     },
   ],
 }
