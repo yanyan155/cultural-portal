@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
+import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 
 import ArchitectsAPI from "../../ArchitectsAPI";
 
@@ -27,6 +28,7 @@ const Arhitect = props => {
       </h1>
       <TimeLineComponent timeline={player.timelineData} />
       <ListOfWorksComponent works={player.work} />
+      <YoutubeVideoComponent videoId={player.videoId} name={player.name} />
     </div>
   );
 };
