@@ -13,7 +13,7 @@ import FooterComponent from "./components/FooterComponent/index";
 const architects = () => (
   <Switch>
     <Route exact path="/architects" component={AllArchitects} />
-    <Route path="/architects/:number" component={Architect} />
+    <Route path="/architects/:name" component={Architect} />
   </Switch>
 );
 

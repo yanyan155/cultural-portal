@@ -1,4 +1,6 @@
 import React from "react";
+import i18next from 'i18next';
+
 import "./ListOfWorksComponent.css";
 
 const ListOfWorksComponent = props => {
@@ -13,10 +15,10 @@ const ListOfWorksComponent = props => {
           </tr>
         </thead>
         <tbody>
-          {props.works.map((item, index) => {
+          {props.author.work.map((item, index) => {
             return (
               <tr key={index}>
-                <td>{item.title}</td>
+                <td> {i18next.t(`${props.author.path}:${item.title}`)}</td>
                 <td>{item.date}</td>
               </tr>
             );

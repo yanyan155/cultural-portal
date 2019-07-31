@@ -2,40 +2,36 @@ exports.frontmatter = {
   authors: [
     {
       id: "1",
-      path: "/Ananich",
-      name: "Yuri Stepanovich Ananich",
-      date: "November 23, 1955 - February 28, 2015",
+      path: "ananich",
+      name: "name",
+      date: "date",
       img: "images/Ananich.jpg",
       videoId: "LiSW2jgILeQ",
-      vita:
-        "Belarusian architect. Member of the Belarusian Union of Architects.",
+      vita: "vita",
       authorOfTheDay: "true",
       lng: "en",
-      birthPlace: "Minsk",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1978",
-          text:
-            "He graduated from the architectural department of the Belarusian State Polytechnic Institute (now BNTU) with a degree in urban planning."
+          text: "timeline1"
         },
         {
           date: "1979-2009",
-          text:
-            "After completing his studies, he worked for thirty years at RUE “Institute Belgosproekt”."
+          text: "timeline2"
         },
         {
           date: "2009",
-          text:
-            "Participated in the design of three high-rise buildings, which the Russian company Itera planned to build in addition to the residential skyscraper Parus in the framework of the multifunctional complex “Business Center on ul. M. Tanka."
+          text: "timeline3"
         },
         {
           date: "2015",
-          text: "Tragically died at the railway station Ptich, Minsk region"
+          text: "timeline4"
         }
       ],
       work: [
         {
-          title: "Residential complex of the Russian Embassy in Belarus",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "2007",
@@ -43,7 +39,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Russian_Embassy_1.jpg/330px-Russian_Embassy_1.jpg"
         },
         {
-          title: "Head office of BSB Bank on Zaslavskaya Street in Minsk",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "2016",
@@ -51,13 +47,13 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BelSwissBank_Headquarters.jpg/300px-BelSwissBank_Headquarters.jpg"
         },
         {
-          title: "Building of branch № 511 of the JSSB Belarusbank",
+          title: "worktitle3",
           date: "2012",
           img:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Belarusbank_511.jpg/300px-Belarusbank_511.jpg"
         },
         {
-          title: "Residential complex of the Russian Embassy",
+          title: "worktitle4",
           width: 53.898331,
           length: 27.560555,
           date: "2007",
@@ -66,7 +62,7 @@ exports.frontmatter = {
         },
         {
           title:
-            "Reconstruction of the building of the National Bank of Belarus",
+            "worktitle5",
           date: "2002",
           img:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/NBRB.JPG/269px-NBRB.JPG"
@@ -75,44 +71,44 @@ exports.frontmatter = {
     },
     {
       id: "2",
-      path: "/Levin",
-      name: "Leonid Mendelevich Levin",
-      date: "July 25, 1936 - March 1, 2014",
+      path: "levin",
+      name: "name",
+      date: "date",
       img: "images/Levin.jpg",
       videoId: "qoWJgqu47gA",
-      vita: "Honored Architect of the Republic of Belarus.",
+      vita: "vita",
       authorOfTheDay: "false",
       lng: "en",
-      birthPlace: "Minsk",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1954-1960",
-          text: "Studying at the Belarusian Polytechnic Institute."
+          text: "timeline1"
         },
         {
           date: "1960",
           text:
-            "Work at the Minskproject Institute (from the architect to the head of the Minsk Construction Center Workshop)."
+            "timeline2"
         },
         {
           date: "1960-1967",
           text:
-            "Participation in the creation of the park. 50th anniversary of Soviet power."
+            "timeline3"
         },
         {
           date: "1968",
           text:
-            "Participation in the creation of the exhibition pavilion VDNH BSSR in Minsk."
+            "timeline4"
         },
         {
           date: "1970",
           text:
-            "As part of the group of authors, he was awarded the Lenin Prize for the memorial complex of 1968-1969. Khatyn."
+            "timeline5"
         }
       ],
       work: [
         {
-          title: 'Memorial ensemble "Khatyn"',
+          title: 'worktitle1',
           width: 53.898,
           length: 27.56,
           date: "1969",
@@ -120,7 +116,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khatyn_Memorial%2C_Belarus.jpg/401px-Khatyn_Memorial%2C_Belarus.jpg"
         },
         {
-          title: "Monument to Yanka Kupala",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1972",
@@ -128,7 +124,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/ru/thumb/f/ff/Yanka-kupala-minsk.jpg/345px-Yanka-kupala-minsk.jpg"
         },
         {
-          title: "Monument to Yakub Kolas",
+          title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1972",
@@ -136,7 +132,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Minsk_Thinker_-_panoramio.jpg/401px-The_Minsk_Thinker_-_panoramio.jpg"
         },
         {
-          title: '"Ploshchad Lenina" metro station',
+          title: "worktitle4",
           width: 53.898331,
           length: 27.560555,
           date: "1984",
@@ -144,7 +140,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenpl_03.jpg/375px-Lenpl_03.jpg"
         },
         {
-          title: '"Trinity Suburb"',
+          title: "worktitle5",
           width: 53.898331,
           length: 27.560555,
           date: "1980—1986",
@@ -155,36 +151,36 @@ exports.frontmatter = {
     },
     {
       id: "3",
-      path: "/Dzuzeppe",
-      name: "Giuseppe de Sacco",
-      date: "1735 — 1798",
+      path: "dzuzeppe",
+      name: "name",
+      date: "date",
       img: "images/Sakko.jpg",
       videoId: "qoWJgqu47gA",
       vita:
-        "One of the largest architects of developed baroque and classicism working in the territory of modern Belarus",
+        "vita",
       authorOfTheDay: "false",
       lng: "en",
-      birthPlace: "Verona, Italy",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1768",
           text:
-            "Giuseppe de Sacco was invited to Warsaw, where he was engaged in the artistic hearse (áastrum doloris) of Queen Maria Leschinska and the project of rebuilding the church of St. John."
+            "timeline1"
         },
         {
           date: "1771",
           text:
-            "He became the architect of the Skarbovaya Commission of the Grand Duchy of Lithuania"
+            "timeline2"
         },
         {
           date: "1771-1780",
           text:
-            "Giuseppe de Sacco completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences."
+            "timeline3"
         }
       ],
       work: [
         {
-          title: "Palace in Tsyozheni",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "XVIII century",
@@ -192,7 +188,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg/225px-Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg"
         },
         {
-          title: "Khreptovich Palace in Shchors",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
@@ -200,7 +196,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg/225px-%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg"
         },
         {
-          title: "Theater Tizengauz",
+          title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
@@ -208,7 +204,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/225px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG"
         },
         {
-          title: "Ensemble of the Tizengauz Square",
+          title: "worktitle4",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
@@ -216,7 +212,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/225px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG"
         },
         {
-          title: "Holy Palace",
+          title: "worktitle5",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
@@ -227,41 +223,41 @@ exports.frontmatter = {
     },
     {
       id: "4",
-      path: "/Karako",
-      name: "Victor Karako",
-      date: "July 29, 1948 - nowadays",
+      path: "karako",
+      name: "name",
+      date: "date",
       img: "images/Karako.jpg",
       videoId: "TkaLjjNj8Ls",
       vita:
-        "Belarusian Architect, Member of the Board of the Belarusian Union of Architects",
+        "vita",
       authorOfTheDay: "false",
       lng: "en",
-      birthPlace: "the USSR",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1966—1972",
           text:
-            "Studied at the Department of Architecture of the Belarusian Polytechnic Institute"
+            "timeline1"
         },
         {
           date: "1972—1976",
           text:
-            "He worked as an architect, senior architect, chief architect of projects, and head of a workshop at BELGOSPROEKT."
+            "timeline2"
         },
         {
           date: "1976—1982",
           text:
-            "Head of the group of architects, chief architect of projects, head of the workshop BelNIIPgradostroitelstvo"
+            "timeline3"
         },
         {
           date: "1982",
           text:
-            "He became the winner of the Leninsky Komsomol Prize of Belarus in the field of architecture for the design of the Palace of Youth in Novopolotsk."
+            "timeline4"
         }
       ],
       work: [
         {
-          title: "Youth Center in Novopolotsk",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "1970",
@@ -269,7 +265,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg"
         },
         {
-          title: "Reconstruction of school 4 in Minsk",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
@@ -278,7 +274,7 @@ exports.frontmatter = {
         },
         {
           title:
-            "Reconstruction of the bank building along Zaslavskaya Street 10",
+            "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "2004",
@@ -289,46 +285,46 @@ exports.frontmatter = {
     },
     {
       id: "5",
-      path: "/Langbard",
-      name: "Iosif Langbard",
-      date: "July 29, 1948 - nowadays",
+      path: "langbard",
+      name: "name",
+      date: "date",
       img: "images/Langbard.jpg",
       videoId: "dlQIlW3V-iU",
       vita:
-        "Belarusian Soviet architect, Honored Art Worker of the Belarusian SSR",
+        "vita",
       authorOfTheDay: "false",
       lng: "en",
-      birthPlace: "the USSR",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1907",
           text:
-            "He moved to St. Petersburg, where he successfully passed the exams at the Higher Art School at the Imperial Academy of Arts at the Faculty of Architecture"
+            "timeline1"
         },
         {
           date: "1923",
           text:
-            "The architectural project of Langbard, among forty-seven works of other authors, participated in the competition of projects of the Palace of Labor in Moscow - the main public building of the USSR"
+            "timeline2"
         },
         {
           date: "1929",
           text:
-            "Won All-Union Competition for the best project of the House of Government of the Belarusian SSR"
+            "timeline3"
         },
         {
           date: "1926 - 1927",
           text:
-            "Langbard completed a competitive project of a three-hundred apartment building for workers of the Red Triangle plant in Leningrad"
+            "timeline4"
         },
         {
           date: "1937",
           text:
-            "Creativity of the architect received worldwide recognition, the year Joseph Langbard won the Grand Prix of the World Exhibition in Paris"
+            "timeline5"
         }
       ],
       work: [
         {
-          title: "Government House of the Republic of Belarus",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "1930-1934",
@@ -336,7 +332,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gouvernementbelarus.JPG/300px-Gouvernementbelarus.JPG"
         },
         {
-          title: "Central House of Officers",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1934-1939",
@@ -344,7 +340,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG/250px-%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG"
         },
         {
-          title: "House of Soviets",
+          title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1935",
@@ -355,39 +351,39 @@ exports.frontmatter = {
     },
     {
       id: "6",
-      path: "/Paolo",
-      name: "Paolo Antonio Domenico Fontana",
-      date: "October 28, 1696 - March 17, 1765",
+      path: "paolo",
+      name: "name",
+      date: "",
       img: "images/Fontana.jpg",
       videoId: "jsh3rExmffw",
-      vita: "Italian architect who worked in the Commonwealth",
+      vita: "vita",
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "Italy",
       timelineData: [
         {
           date: "1730",
-          text: "He married the first wife of Marianne Sufchinskaya"
+          text: "timeline1"
         },
         {
           date: "1730 - 1740",
           text:
-            "He received the rank of lieutenant of artillery of the Grand Duchy of Lithuania"
+            "timeline2"
         },
         {
           date: "1745",
           text:
-            "He returned to Italy, but next year he signed a new contract for the service at the court of Prince Paul Karl Sangushko, now in Izyaslav"
+            "timeline3"
         },
         {
           date: "1748",
           text:
-            "After the death of his wife, married again with Teresa Romironi"
+            "timeline4"
         }
       ],
       work: [
         {
-          title: "Palace of Princes Sangushko",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "1754—1770",
@@ -395,7 +391,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png/250px-%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png"
         },
         {
-          title: "Savior Transfiguration Cathedral",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1758—1760",
@@ -403,7 +399,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinnytsia-orthodox-church-1.jpg/290px-Vinnytsia-orthodox-church-1.jpg"
         },
         {
-          title: "Great Synagogue (Wlodawa)",
+          title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1764 - 1774",

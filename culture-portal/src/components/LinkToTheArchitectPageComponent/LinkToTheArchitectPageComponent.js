@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./LinkToTheArchitectPageComponent.css";
+import i18next from 'i18next';
 
 const LinkToTheArchitectPageComponent = props => {
   return (
@@ -10,11 +11,11 @@ const LinkToTheArchitectPageComponent = props => {
       </p>
       <div className="card-body">
         <h5 className="card-title">
-          {props.name}
+          {i18next.t(`${props.link}:${props.name}`)}
           <br /> {props.date}
         </h5>
-        <p className="card-text">{props.description} </p>
-        <Link to={`/architects/${props.id}`}>
+        <p className="card-text"> {i18next.t(`${props.link}:${props.description}`)}</p>
+        <Link to={`/architects/${props.link}`}>
           <button className="btn btn-primary">Больше информации</button>
         </Link>
       </div>
