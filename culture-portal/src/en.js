@@ -2,40 +2,40 @@ exports.frontmatter = {
   authors: [
     {
       id: "1",
-      path: "/Ananich",
-      name: "Yuri Stepanovich Ananich",
-      date: "November 23, 1955 - February 28, 2015",
+      path: "ananich",
+      name: "name",
+      date: "date",
       img: "images/Ananich.jpg",
       videoId: "LiSW2jgILeQ",
       vita:
-        "Belarusian architect. Member of the Belarusian Union of Architects.",
+        "vita",
       authorOfTheDay: "true",
       lng: "en",
-      birthPlace: "Minsk",
+      birthPlace: "birthPlace",
       timelineData: [
         {
           date: "1978",
           text:
-            "He graduated from the architectural department of the Belarusian State Polytechnic Institute (now BNTU) with a degree in urban planning."
+            "timeline1"
         },
         {
           date: "1979-2009",
           text:
-            "After completing his studies, he worked for thirty years at RUE “Institute Belgosproekt”."
+            "timeline2"
         },
         {
           date: "2009",
           text:
-            "Participated in the design of three high-rise buildings, which the Russian company Itera planned to build in addition to the residential skyscraper Parus in the framework of the multifunctional complex “Business Center on ul. M. Tanka."
+            "timeline3"
         },
         {
           date: "2015",
-          text: "Tragically died at the railway station Ptich, Minsk region"
+          text: "timeline4"
         }
       ],
       work: [
         {
-          title: "Residential complex of the Russian Embassy in Belarus",
+          title: "worktitle1",
           width: 53.898,
           length: 27.56,
           date: "2007",
@@ -43,7 +43,7 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Russian_Embassy_1.jpg/330px-Russian_Embassy_1.jpg"
         },
         {
-          title: "Head office of BSB Bank on Zaslavskaya Street in Minsk",
+          title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "2016",
@@ -51,13 +51,13 @@ exports.frontmatter = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BelSwissBank_Headquarters.jpg/300px-BelSwissBank_Headquarters.jpg"
         },
         {
-          title: "Building of branch № 511 of the JSSB Belarusbank",
+          title: "worktitle3",
           date: "2012",
           img:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Belarusbank_511.jpg/300px-Belarusbank_511.jpg"
         },
         {
-          title: "Residential complex of the Russian Embassy",
+          title: "worktitle4",
           width: 53.898331,
           length: 27.560555,
           date: "2007",
@@ -66,7 +66,7 @@ exports.frontmatter = {
         },
         {
           title:
-            "Reconstruction of the building of the National Bank of Belarus",
+            "worktitle5",
           date: "2002",
           img:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/NBRB.JPG/269px-NBRB.JPG"
@@ -75,7 +75,7 @@ exports.frontmatter = {
     },
     {
       id: "2",
-      path: "/Levin",
+      path: "levin",
       name: "Leonid Mendelevich Levin",
       date: "July 25, 1936 - March 1, 2014",
       img: "images/Levin.jpg",
@@ -155,7 +155,7 @@ exports.frontmatter = {
     },
     {
       id: "3",
-      path: "/Dzuzeppe",
+      path: "dzuzeppe",
       name: "Giuseppe de Sacco",
       date: "1735 — 1798",
       img: "images/Sakko.jpg",
@@ -227,7 +227,7 @@ exports.frontmatter = {
     },
     {
       id: "4",
-      path: "/Karako",
+      path: "karako",
       name: "Victor Karako",
       date: "July 29, 1948 - nowadays",
       img: "images/Karako.jpg",
@@ -289,7 +289,7 @@ exports.frontmatter = {
     },
     {
       id: "5",
-      path: "/Langbard",
+      path: "langbard",
       name: "Iosif Langbard",
       date: "July 29, 1948 - nowadays",
       img: "images/Langbard.jpg",
@@ -355,7 +355,7 @@ exports.frontmatter = {
     },
     {
       id: "6",
-      path: "/Paolo",
+      path: "paolo",
       name: "Paolo Antonio Domenico Fontana",
       date: "October 28, 1696 - March 17, 1765",
       img: "images/Fontana.jpg",
