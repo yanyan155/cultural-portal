@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
+import ArchitectDescriptionComponent from "../../components/ArchitectDescriptionComponent/index";
 
 import ArchitectsAPI from "../../ArchitectsAPI";
 
@@ -22,9 +23,7 @@ const Arhitect = props => {
     // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
     <div>
       <Link to="/architects">Назад</Link>
-      <h1>
-        {player.name} (#{player.id})
-      </h1>
+      <ArchitectDescriptionComponent player={player}  />
       <TimeLineComponent timeline={player.timelineData} />
       <ListOfWorksComponent works={player.work} />
     </div>
