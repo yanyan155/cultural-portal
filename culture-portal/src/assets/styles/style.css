@@ -5,3 +5,21 @@
 main {
   min-height: calc(100vh - 6rem);
 }
+
+.error-page {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.error-page p {
+  font-family: roboto;
+  color: #17293c;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.error-page p a {
+  color: #2ec692;
+  font-family: roboto;
+  font-weight: bold;
+}
