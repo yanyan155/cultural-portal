@@ -4,6 +4,7 @@ import i18next from 'i18next';
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
+import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 const Arhitect = props => {
@@ -27,8 +28,9 @@ const Arhitect = props => {
       <h1>
         {i18next.t(`${player.path}:${player.name}`)}
       </h1>
-      <TimeLineComponent author={player} />
-      <ListOfWorksComponent author={player} />
+      <TimeLineComponent timeline={player.timelineData} />
+      <ListOfWorksComponent works={player.work} />
+      <YoutubeVideoComponent videoId={player.videoId} name={player.name} />
     </div>
   );
 };
