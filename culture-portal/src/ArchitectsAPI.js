@@ -5,11 +5,17 @@
 
 const ArchitectsAPI = {
   architects: require("./en").frontmatter.authors,
-  all: function() {
+  all: function () {
     return this.architects;
   },
-  get: function(id) {
-    return this.architects[id - 1];
+  get: function (name) {
+    let author = null;
+    this.architects.map((value) => {
+      if (value.path === name) {
+        author = value;
+      }
+    });
+    return author;
   }
 };
 

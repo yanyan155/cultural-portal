@@ -6,7 +6,8 @@ import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 const Arhitect = props => {
-  const player = ArchitectsAPI.get(parseInt(props.match.params.number, 10));
+  console.log(props.match.params.name);
+  const player = ArchitectsAPI.get(props.match.params.name);
   if (!player) {
     // сюда заимпортить страницу 404 вместо строчки ниже.
     return <div>404. Такого архитектора нет</div>;
