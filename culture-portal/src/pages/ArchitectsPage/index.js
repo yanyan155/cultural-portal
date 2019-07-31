@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import SearchComponent from "../../components/SeacrhComponent/index";
 
 import ListOfArchitectsComponent from "../../components/ListOfArchitectsComponent/index";

@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import i18next from 'i18next';
+
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ListOfWorksComponent from "../../components/ListOfWorksComponent/index";
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
-
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 const Arhitect = props => {
-  const player = ArchitectsAPI.get(parseInt(props.match.params.number, 10));
+  console.log(props.match.params.name);
+  const player = ArchitectsAPI.get(props.match.params.name);
   if (!player) {
     // сюда заимпортить страницу 404 вместо строчки ниже.
     return <div>404. Такого архитектора нет</div>;
@@ -24,7 +26,7 @@ const Arhitect = props => {
     <div>
       <Link to="/architects">Назад</Link>
       <h1>
-        {player.name} (#{player.id})
+        {i18next.t(`${player.path}:${player.name}`)}
       </h1>
       <TimeLineComponent timeline={player.timelineData} />
       <ListOfWorksComponent works={player.work} />
