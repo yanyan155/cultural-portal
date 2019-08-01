@@ -1,9 +1,7 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+
 import SearchComponent from "../../components/SeacrhComponent/index";
-
 import ListOfArchitectsComponent from "../../components/ListOfArchitectsComponent/index";
-
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 class AllArchitects extends React.Component {
@@ -31,6 +29,11 @@ class AllArchitects extends React.Component {
       filtered: newList
     });
   };
+
+  componentWillMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
