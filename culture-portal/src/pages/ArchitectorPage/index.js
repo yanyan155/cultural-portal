@@ -4,6 +4,7 @@ import i18next from "i18next";
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ArchitectPageNavigationComponent from "../../components/ArchitectPageNavigationComponent/index";
+import ListOfWorksComponent from "../../components/ListOfWorksComponent/"
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import ArchitectsAPI from "../../ArchitectsAPI";
 
