@@ -1,0 +1,15 @@
+.btn-danger {
+  border-radius: 0rem;
+  padding-right: 20px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.const_menu {
+  position: fixed;
+  top: 25%;
+  left: calc(100% - 55px);
+  width: 55px;
+  height: 230px;
+  padding: 20px 10px;
+  z-index: 9999;
+}

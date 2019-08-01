@@ -1,15 +1,14 @@
 import React from "react";
-import i18next from 'i18next';
+import i18next from "i18next";
 
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 import "./TimeLineComponent.css";
 
 const TimeLineComponent = props => {
   return (
-    <div className="container">
+    <div className="container" id="timeline">
       <h3>Timeline</h3>
       <Timeline lineColor={"#ddd"}>
-        {console.log(props)}
         {props.author.timelineData.map((item, index) => {
           return (
             <TimelineItem
@@ -33,7 +32,6 @@ const TimeLineComponent = props => {
               }}
             >
               <h3>{item.date}</h3>
-              {console.log(props)}
               <p>{i18next.t(`${props.author.path}:${item.text}`)}</p>
             </TimelineItem>
           );
