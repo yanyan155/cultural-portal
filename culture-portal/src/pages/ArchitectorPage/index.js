@@ -22,8 +22,7 @@ const Arhitect = props => {
     // Компонент Галерея
     // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
     <div>
-      <Link to="/architects">Назад</Link>
-      <ArchitectDescriptionComponent player={player}  />
+      <ArchitectDescriptionComponent player={player} />
       <TimeLineComponent timeline={player.timelineData} />
       <ListOfWorksComponent works={player.work} />
     </div>
