@@ -40,12 +40,20 @@ class App extends Component {
     if (event.target.classList.contains('flag-image')) {
       target = event.target.parentNode;
     }
-    console.log("selected val is ", target.value);
     let newlang = target.value;
     this.setState({ value: newlang });
-    console.log("state value is", newlang);
     i18n.changeLanguage(newlang);
+    localStorage.clear();
+    localStorage.setItem("language", newlang);
   };
+
+  componentWillMount() {
+    const language = localStorage.getItem("language");
+    if (language && this.state.value !== language) {
+      this.setState({ value: language });
+      i18n.changeLanguage(language);
+    }
+  }
 
   render() {
     return (
