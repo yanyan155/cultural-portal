@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import i18next from "i18next";
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
@@ -33,7 +32,6 @@ class Architect extends Component {
         // Компонент Галерея
         // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
         <div>
-          <Link to="/architects">Назад</Link>
           <h1>{i18next.t(`${this.author.path}:${this.author.name}`)}</h1>
           <TimeLineComponent author={this.author} />
           <ListOfWorksComponent author={this.author} />
