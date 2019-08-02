@@ -4,14 +4,14 @@ import authorOfTheDay from "../../assets/images/Yury_Ananich.jpg";
 
 const AuthorOfTheDayComponent = props => {
   return (
-    <div>
+    <div className="archDay">
       <h3> Архитектор дня </h3>
       <p className="img">
         <img src={authorOfTheDay} alt="Художник дня" />
       </p>
       <h4>Юрий Степанович Ананич</h4>
       <h5>(23 ноября 1955 — 28 февраля 2015)</h5>
-      <p>
+      <p className="p">
         Белорусский архитектор, внёсший вклад в формирование архитектурного
         облика современного Минска и других белорусских городов. Член
         Белорусского союза архитекторов.

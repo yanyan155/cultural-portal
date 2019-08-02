@@ -11,7 +11,7 @@ import './HeaderComponent.css';
 class Header extends Component {
     render() {
         return (
-            < header >
+            <header >
                 <h1>{i18next.t("h1")}</h1>
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
