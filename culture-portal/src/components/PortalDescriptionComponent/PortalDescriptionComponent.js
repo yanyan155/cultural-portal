@@ -7,7 +7,7 @@ const PortalDescriptionComponent = props => {
   return (
     <div className="container">
       <span className="row">
-        <span className="col-8">
+        <span className="col-12 col-lg-8">
           <p>
             На протяжении веков в Беларуси творили архитекторы, инженеры,
             художники разных национальностей. Здесь работали итальянцы,
