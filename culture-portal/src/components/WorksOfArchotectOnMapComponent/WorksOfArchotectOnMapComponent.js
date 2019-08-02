@@ -12,7 +12,7 @@ const WorksOfArchotectOnMapComponent = (props) => {
 	geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5', // Леонид Менделевич Левин
 	geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn', // ананич
   */
-  let path = `https://www.google.com/maps/d/embed?${geovidgetLink}`
+  let path = `https://www.google.com/maps/d/embed?${geovidgetLink}&hl=en`
   return (
     <div className="container text-center mb-4">
       <iframe title="geovidget"  src={path} width="640" height="480"></iframe>
