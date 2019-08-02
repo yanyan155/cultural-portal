@@ -15,7 +15,7 @@ const WorksOfArchotectOnMapComponent = (props) => {
   let path = `https://www.google.com/maps/d/embed?${geovidgetLink}`
   return (
     <div className="container text-center mb-4">
-      <iframe title="geovidget" src={path} width="640" height="480"></iframe>
+      <iframe title="geovidget"  src={path} width="640" height="480"></iframe>
     </div>
   )
 }
