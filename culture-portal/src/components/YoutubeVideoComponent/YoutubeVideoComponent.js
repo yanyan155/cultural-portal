@@ -1,4 +1,5 @@
 import React from "react";
+import i18next from "i18next";
 import "./YoutubeVideoComponent.css";
 
 const YoutubeVideoComponent = props => {
@@ -28,7 +29,7 @@ const YoutubeVideoComponent = props => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
-                {props.name}
+                {i18next.t(`${props.author.path}:${props.author.name}`)}
               </h5>
               <button
                 type="button"
