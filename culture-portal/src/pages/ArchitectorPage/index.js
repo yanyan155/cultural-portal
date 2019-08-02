@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import i18next from "i18next";
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
@@ -30,7 +29,6 @@ const Arhitect = props => {
       <ListOfWorksComponent author={player} />
       <ArchitectPageNavigationComponent />
       <YoutubeVideoComponent videoId={player.videoId} name={player.name} />
-      {console.log(props.name)}
     </div>
   );
 };
