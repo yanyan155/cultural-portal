@@ -93,3 +93,27 @@
   text-decoration: none;
 }
 
+.member {
+  margin-top: 350px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 992px){
+  .container {
+    width: 100%;
+  }
+  .member{
+    margin-top: 100px;
+  }
+  .cub {
+    width: 100%;
+    text-align: center;
+  }
+  .cubspinner{
+    margin-left: calc(50% - 125px);
+  }
+}
