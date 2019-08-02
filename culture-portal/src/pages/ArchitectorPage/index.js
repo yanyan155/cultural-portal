@@ -5,6 +5,7 @@ import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ArchitectPageNavigationComponent from "../../components/ArchitectPageNavigationComponent/index";
 import ListOfWorksComponent from "../../components/ListOfWorksComponent/";
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
+import WorksOfArchotectOnMapComponent from "../../components/WorksOfArchotectOnMapComponent";
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 class Architect extends Component {
@@ -40,6 +41,7 @@ class Architect extends Component {
             videoId={this.author.videoId}
             name={this.author.name}
           />
+          <WorksOfArchotectOnMapComponent link={this.geovidgetLink} />
         </div>
       );
   }
