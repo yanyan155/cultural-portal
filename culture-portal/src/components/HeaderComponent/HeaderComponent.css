@@ -1,24 +1,24 @@
 header {
-    height: 14rem;
-    background-image: url('../../assets/images/bg_header.jpg');
-    margin-bottom: 1.3rem;
+  height: 14rem;
+  background-image: url("../../assets/images/bg_header.jpg");
+  margin-bottom: 1.3rem;
 }
 
 h1 {
-    text-align: center;
-    padding-top: 1.3rem;
+  text-align: center;
+  padding-top: 1.3rem;
 }
 
 .nav {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .dropdown-menu {
-    border: none;
-    min-width: 3rem;
-    background-color: rgba(0, 0, 0, 0);
+  border: none;
+  min-width: 3rem;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .nav-link {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
