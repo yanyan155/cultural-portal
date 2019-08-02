@@ -4,11 +4,12 @@ import "./ArchitectDescriptionComponent.css";
 
 const ArchitectDescriptionComponent = props => {
   return (
-    <div className="container">
+    <div className="container description-container">
       <p>
         <img
           src={`${window.location.origin}/${props.author.img}`}
           alt="author"
+          className='description-img'
         />
       </p>
       <h1>{i18next.t(`${props.author.path}:${props.author.name}`)}</h1>

@@ -1,12 +1,12 @@
 p {
-    text-align: center;
+  text-align: center;
 }
-img{
-    width: 250px;
+.description-img {
+  width: 250px;
 }
-div {
-    padding-bottom: 50px;
+.description-container {
+  padding-bottom: 50px;
 }
 h1 {
-    color: #0275d8;
+  color: #0275d8;
 }
