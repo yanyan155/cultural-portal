@@ -7,7 +7,7 @@ const LinkToTheArchitectPageComponent = props => {
   return (
     <div className="card">
       <p>
-        <img className="card-img-top" src={props.img} alt="Архитектор дня" />
+        <img className="card-img-top" src={props.img} alt={i18next.t(`Architect`)} />
       </p>
       <div className="card-body">
         <h5 className="card-title">

@@ -16,6 +16,9 @@ const ArchitectsAPI = {
       }
     });
     return author;
+  },
+  random: function () {
+    return this.architects[Math.floor(Math.random() * this.architects.length)];;
   }
 };
 
