@@ -6,8 +6,8 @@ import "./PortalDescriptionComponent.css";
 const PortalDescriptionComponent = props => {
   return (
     <div className="container">
-      <span className="row">
-        <span className="col-12 col-lg-8">
+      <div className="row">
+        <div className="col-12 col-lg-8">
           <p>
             На протяжении веков в Беларуси творили архитекторы, инженеры,
             художники разных национальностей. Здесь работали итальянцы,
@@ -83,12 +83,12 @@ const PortalDescriptionComponent = props => {
             опирается на архитектурно-художественные разработки прошлых веков,
             разнообразные стили и направления.
           </p>
-        </span>
-        <div className="col-12 col-lg-4">
-        <AuthorOfTheDayComponent />
-        <MemberOfTheTeamComponent />
         </div>
-      </span>
+        <div className="col-12 col-lg-4">
+          <AuthorOfTheDayComponent />
+          <MemberOfTheTeamComponent />
+        </div>
+      </div>
     </div>
   );
 };
