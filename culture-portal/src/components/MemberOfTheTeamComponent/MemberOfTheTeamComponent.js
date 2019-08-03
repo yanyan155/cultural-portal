@@ -1,4 +1,6 @@
 import React from "react";
+import i18next from "i18next";
+
 import "./MemberOfTheTeamComponent.css";
 import { frontmatter } from "../../authors";
 
@@ -7,7 +9,7 @@ const MemberOfTheTeamComponent = props => {
 
   return (
     <div className="member">
-      <h3>Коллектив авторов</h3>
+      <h3>{i18next.t('Authors')}</h3>
       <div className="cub">
         <div className="cubspinner">
           {listOfDevelopers.map((item, index) => {
