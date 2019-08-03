@@ -16,8 +16,9 @@ class AuthorOfTheDayComponent extends Component {
       <div className="architect-day">
         <h3>{i18next.t(`Architect-of-day`)}</h3>
         <div className="architect-day-image">
+          {console.log(this.author)}
           <img
-            src={`${window.location.origin}/${this.author.img}`}
+            src={this.author.img}
             alt="author"
           />
         </div>
