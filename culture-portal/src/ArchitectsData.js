@@ -11,6 +11,7 @@ exports.frontmatter = {
       authorOfTheDay: "true",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn",
       timelineData: [
         {
           date: "1978",
@@ -80,6 +81,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      "geovidgetLink": "mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5",
       timelineData: [
         {
           date: "1954-1960",
@@ -161,6 +163,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO",
       timelineData: [
         {
           date: "1768",
@@ -233,6 +236,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO",
       timelineData: [
         {
           date: "1966—1972",
@@ -295,6 +299,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s",
       timelineData: [
         {
           date: "1907",
@@ -360,6 +365,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "Italy",
+      geovidgetLink: "mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE",
       timelineData: [
         {
           date: "1730",
