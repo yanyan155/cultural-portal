@@ -13,14 +13,21 @@ class AllArchitects extends React.Component {
     let newList;
     if (e !== "") {
       newList = currentList.filter(obj => {
-        return Object.keys(obj).some(k => {
-          return (
-            obj[k]
-              .toString()
-              .toLowerCase()
-              .indexOf(e) !== -1
-          );
-        });
+        let currentLanguage;
+        if (obj.lng === "en") {
+          currentLanguage = "searchKeyEn";
+        } else if (obj.lng === "ru") {
+          currentLanguage = "searchKeyRu";
+        } else if (obj.lng === "by") {
+          currentLanguage = "searchKeyBy";
+        }
+
+        return (
+          obj[currentLanguage]
+            .toString()
+            .toLowerCase()
+            .indexOf(e) !== -1
+        );
       });
     } else {
       newList = ArchitectsAPI.all();
