@@ -1,6 +1,7 @@
 header {
     height: 14rem;
     background-image: url('../../assets/images/bg_header.jpg');
+    background-position: 50% 80%;
     margin-bottom: 1.3rem;
 }
 
