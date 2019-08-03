@@ -6,6 +6,8 @@ const YoutubeVideoComponent = props => {
   const path = `https://www.youtube.com/embed/${props.videoId}`;
   return (
     <div className="container youtube-block" id="youtube-video">
+    <div className="row">
+    <div className="col">
       <h3>Youtube</h3>
       <div className="video">
         <button
@@ -44,8 +46,6 @@ const YoutubeVideoComponent = props => {
             </div>
             <div className="modal-body">
               <iframe
-                width="600"
-                height="400"
                 title="this is a unique title"
                 src={path}
               />
@@ -54,6 +54,8 @@ const YoutubeVideoComponent = props => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };
