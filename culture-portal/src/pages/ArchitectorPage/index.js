@@ -6,6 +6,7 @@ import ListOfWorksComponent from "../../components/ListOfWorksComponent/";
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import WorksOfArchotectOnMapComponent from "../../components/WorksOfArchotectOnMapComponent";
 import ArchitectDescriptionComponent from "../../components/ArchitectDescriptionComponent/index";
+import GalleryOfWorksComponent from "../../components/GalleryOfWorksComponent/index";
 import ArchitectsAPI from "../../ArchitectsAPI";
 
 class Architect extends Component {
