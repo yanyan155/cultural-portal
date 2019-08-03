@@ -6,34 +6,37 @@ import ArchitectsAPI from "../../ArchitectsAPI";
 
 class AllArchitects extends React.Component {
   state = {
-    filtered: ArchitectsAPI.all()
+    filtered: ArchitectsAPI.all(),
+    newList: ""
   };
   onChange = e => {
     let currentList = ArchitectsAPI.all();
-    let newList;
-    if (e !== "") {
-      newList = currentList.filter(obj => {
-        let currentLanguage;
-        if (obj.lng === "en") {
-          currentLanguage = "searchKeyEn";
-        } else if (obj.lng === "ru") {
-          currentLanguage = "searchKeyRu";
-        } else if (obj.lng === "by") {
-          currentLanguage = "searchKeyBy";
-        }
 
-        return (
-          obj[currentLanguage]
-            .toString()
-            .toLowerCase()
-            .indexOf(e) !== -1
-        );
+    if (e !== "") {
+      this.setState({
+        newList: currentList.filter(obj => {
+          let currentLanguage;
+          if (obj.lng === "en") {
+            currentLanguage = "searchKeyEn";
+          } else if (obj.lng === "ru") {
+            currentLanguage = "searchKeyRu";
+          } else if (obj.lng === "by") {
+            currentLanguage = "searchKeyBy";
+          }
+
+          return (
+            obj[currentLanguage]
+              .toString()
+              .toLowerCase()
+              .indexOf(e) !== -1
+          );
+        })
       });
     } else {
-      newList = ArchitectsAPI.all();
+      this.setState({ newList: ArchitectsAPI.all() });
     }
     this.setState({
-      filtered: newList
+      filtered: this.state.newList
     });
   };
 
@@ -42,6 +45,14 @@ class AllArchitects extends React.Component {
   }
 
   render() {
+    if (this.state.filtered.length === 0) {
+      return (
+        <div>
+          <SearchComponent onChange={this.onChange} />
+          <div className="container">No matches found</div>
+        </div>
+      );
+    }
     return (
       <div>
         <SearchComponent onChange={this.onChange} />
