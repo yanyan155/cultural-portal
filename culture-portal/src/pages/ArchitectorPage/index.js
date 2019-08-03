@@ -42,6 +42,8 @@ class Architect extends Component {
             author={this.author}
           />
           <GalleryOfWorksComponent author={this.author} />
+        
+          <WorksOfArchotectOnMapComponent link={this.geovidgetLink} />
         </div>
       );
   }
