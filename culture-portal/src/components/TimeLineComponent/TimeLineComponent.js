@@ -7,7 +7,7 @@ import "./TimeLineComponent.css";
 const TimeLineComponent = props => {
   return (
     <div className="container" id="timeline">
-      <h3>Timeline</h3>
+      <h3>{i18next.t('Timeline')}</h3>
       <Timeline lineColor={"#ddd"}>
         {props.author.timelineData.map((item, index) => {
           return (

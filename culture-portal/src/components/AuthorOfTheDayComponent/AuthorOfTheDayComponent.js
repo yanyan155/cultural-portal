@@ -1,26 +1,37 @@
-import React from "react";
-import "./AuthorOfTheDayComponent.css";
-import authorOfTheDay from "../../assets/images/Yury_Ananich.jpg";
+import React, { Component } from "react";
+import i18next from "i18next";
+import { Link } from "react-router-dom";
 
-const AuthorOfTheDayComponent = props => {
-  return (
-    <div className="archDay">
-      <h3> Архитектор дня </h3>
-      <p className="img">
-        <img src={authorOfTheDay} alt="Художник дня" />
-      </p>
-      <h4>Юрий Степанович Ананич</h4>
-      <h5>(23 ноября 1955 — 28 февраля 2015)</h5>
-      <p className="p">
-        Белорусский архитектор, внёсший вклад в формирование архитектурного
-        облика современного Минска и других белорусских городов. Член
-        Белорусского союза архитекторов.
-      </p>
-      <button type="button" className="btn btn-primary">
-        Больше информации
-      </button>
-    </div>
-  );
-};
+import "./AuthorOfTheDayComponent.css";
+import ArchitectsApi from '../../ArchitectsAPI';
+
+class AuthorOfTheDayComponent extends Component {
+  constructor() {
+    super();
+    this.author = ArchitectsApi.random();
+  }
+
+  render() {
+    return (
+      <div className="architect-day">
+        <h3>{i18next.t(`Architect-of-day`)}</h3>
+        <div className="architect-day-image">
+          <img
+            src={`${window.location.origin}/${this.author.img}`}
+            alt="author"
+          />
+        </div>
+        <h4>{i18next.t(`${this.author.path}:${this.author.name}`)}</h4>
+        <h5>{i18next.t(`${this.author.path}:${this.author.date}`)}</h5>
+        <p>
+          {i18next.t(`${this.author.path}:${this.author.vita}`)}
+        </p>
+        <Link to={`/architects/${this.author.path}`}>
+          <button className="btn btn-primary">{i18next.t(`More`)}</button>
+        </Link>
+      </div>
+    );
+  }
+}
 
 export default AuthorOfTheDayComponent;

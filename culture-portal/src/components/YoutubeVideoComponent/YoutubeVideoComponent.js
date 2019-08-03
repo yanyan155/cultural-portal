@@ -14,7 +14,7 @@ const YoutubeVideoComponent = props => {
           data-toggle="modal"
           data-target="#exampleModal"
         >
-          Смотреть видео
+          {i18next.t('Watch-video')}
         </button>
       </div>
       <div
