@@ -14,7 +14,6 @@ class AuthorOfTheDayComponent extends Component {
   render() {
     return (
       <div className="architect-day">
-        {console.log(this.author)}
         <h3>{i18next.t(`Architect-of-day`)}</h3>
         <div className="architect-day-image">
           <img
