@@ -42,9 +42,8 @@ class Architect extends Component {
             videoId={this.author.videoId}
             author={this.author}
           />
-        
           <GalleryOfWorksComponent author={this.author} />
-          <WorksOfArchotectOnMapComponent link={this.geovidgetLink} />
+          <WorksOfArchotectOnMapComponent author={this.author} />
         </div>
       );
   }
