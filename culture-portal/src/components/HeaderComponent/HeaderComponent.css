@@ -1,0 +1,46 @@
+header {
+    height: 14rem;
+    background-image: url('../../assets/images/bg_header.jpg');
+    background-position: 50% 80%;
+    margin-bottom: 1.3rem;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.nav {
+    font-size: 1.3rem;
+}
+
+.dropdown-menu {
+    border: none;
+    min-width: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link {
+    padding-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .nav{
+    display: block;
+        text-align: right;
+    }
+    header {
+        height: 19rem;
+    }
+    .dropdown-menu{
+        margin-left: calc(100% - 75px);
+    }
+
+
+}
+@media (max-width: 450px) {
+h1{
+    font-size: 30px;
+}
+}

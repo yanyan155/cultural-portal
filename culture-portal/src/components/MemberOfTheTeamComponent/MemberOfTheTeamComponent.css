@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@keyframes spincub {
+  from, to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateX(90deg);
+  }
+  83% {
+    transform: rotateX(90deg);
+  }
+}
+
+.cubspinner {
+  animation-name: spincub;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 25s;
+  transform-style: preserve-3d;
+  transform-origin: 125px 125px 0;
+}
+
+.cubspinner div {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  text-align: center;
+  color: #55bede;
+}
+
+.cubspinner .size1 {
+  transform: translateZ(125px);
+}
+
+.cubspinner .size2 {
+  transform: rotateY(90deg) translateZ(125px);
+}
+
+.cubspinner .size3 {
+  transform: rotateY(90deg) rotateX(90deg) translateZ(125px);
+}
+
+.cubspinner .size4 {
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(125px);
+}
+
+.cubspinner .size5 {
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(125px);
+}
+
+.cubspinner .size6 {
+  transform: rotateX(-90deg) translateZ(125px);
+}
+
+.cub {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.cub .cubspinner div a img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.developer-info {
+  height: 3rem;
+  padding-top: 0.8rem;
+  color: #000;
+  font-family: 'Concert One', cursive;
+  font-size: 17px;
+  font-weight: bolder;
+  background-image: url("../../assets/images/bg_team.jpg");
+  background-size: contain;
+  
+}
+
+.cubspinner a {
+  text-decoration: none;
+}
+
+.member {
+  margin: auto;
+}
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 992px){
+  .container {
+    width: 100%;
+  }
+
+  .member{
+    margin: 100px 0;
+  }
+
+  .cub {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cubspinner{
+    margin-left: calc(50% - 125px);
+  }
+}

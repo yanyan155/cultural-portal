@@ -1,0 +1,40 @@
+.col-4 {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+h3 {
+    color: #0275d8;
+}
+
+.btn {
+    font-family: 'Lobster', cursive;
+}
+
+h3, h4, h5{
+    text-align: center;
+}
+
+.architect-day {
+    text-align: center;
+}
+
+.architect-day-image img {
+    max-width: 240px;
+    text-align: center;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .architect-day p {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .architect-day {
+        margin-top: 100px;
+    }
+}

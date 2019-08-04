@@ -1,0 +1,11 @@
+* {
+  font-family: "Lobster", cursive;
+}
+
+main {
+  min-height: calc(100vh - 6rem);
+}
+
+.no-results {
+  text-align: center;
+}

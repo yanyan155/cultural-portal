@@ -1,0 +1,13 @@
+p {
+  text-align: center;
+}
+.description-img {
+  width: 250px;
+}
+.description-container {
+  padding-bottom: 50px;
+}
+h2 {
+  color: #0275d8;
+  text-align: center;
+}
