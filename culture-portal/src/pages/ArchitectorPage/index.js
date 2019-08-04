@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ArchitectPageNavigationComponent from "../../components/ArchitectPageNavigationComponent/index";
-import ListOfWorksComponent from "../../components/ListOfWorksComponent/";
+import ListOfWorksComponent from "../../components/ListOfWorksComponent";
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import WorksOfArchotectOnMapComponent from "../../components/WorksOfArchotectOnMapComponent";
 import ArchitectDescriptionComponent from "../../components/ArchitectDescriptionComponent/index";
@@ -21,23 +21,26 @@ class Architect extends Component {
   }
 
   render() {
-    if (!this.author) {
-      return (<Page404Component />)
-    } else
-      return (
-        <div>
-          <ArchitectDescriptionComponent author={this.author} />
-          <TimeLineComponent author={this.author} />
-          <ListOfWorksComponent author={this.author} />
-          <ArchitectPageNavigationComponent />
-          <YoutubeVideoComponent
-            videoId={this.author.videoId}
-            author={this.author}
-          />
-          <GalleryOfWorksComponent author={this.author} />
-          <WorksOfArchotectOnMapComponent author={this.author} />
-        </div>
-      );
+    return (
+      <div>
+        {!this.author ? (
+          <Page404Component />
+        ) : (
+            <>
+              <ArchitectDescriptionComponent author={this.author} />
+              <TimeLineComponent author={this.author} />
+              <ListOfWorksComponent author={this.author} />
+              <ArchitectPageNavigationComponent />
+              <YoutubeVideoComponent
+                videoId={this.author.videoId}
+                author={this.author}
+              />
+              <GalleryOfWorksComponent author={this.author} />
+              <WorksOfArchotectOnMapComponent author={this.author} />
+            </>
+          )}
+      </div>
+    );
   }
 }
 

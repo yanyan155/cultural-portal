@@ -8,14 +8,14 @@ const ArchitectDescriptionComponent = props => {
     <div className="container description-container">
       <p>
         <img
-          src={props.author.img}
+          src={author.img}
           alt="author"
           className="description-img"
         />
       </p>
-      <h2>{i18next.t(`${props.author.path}:${props.author.name}`)}</h2>
-      <h4>{i18next.t(`${props.author.path}:${props.author.date}`)}</h4>
-      <p>{i18next.t(`${props.author.path}:${props.author.vita}`)}</p>
+      <h2>{i18next.t(`${author.path}:${author.name}`)}</h2>
+      <h4>{i18next.t(`${author.path}:${author.date}`)}</h4>
+      <p>{i18next.t(`${author.path}:${author.vita}`)}</p>
     </div>
   );
 };

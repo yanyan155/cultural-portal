@@ -6,6 +6,7 @@ class Page404 extends Component {
     componentWillMount() {
         window.scrollTo(0, 0);
     }
+
     render() {
         return (
             <Page404Component />

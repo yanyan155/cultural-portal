@@ -5,11 +5,12 @@ import './WorksOfArchotectOnMapComponent.css';
 
 // width="640" height="480"
 const WorksOfArchotectOnMapComponent = (props) => {
-  let path = `https://www.google.com/maps/d/embed?${props.author.geovidgetLink}&hl=en`
+  const { author } = props;
+  const path = `https://www.google.com/maps/d/embed?${author.geovidgetLink}&hl=en`
   return (
     <div className="container text-center mb-4" id="map">
       <h3>{i18next.t('Map-of-works')}</h3>
-      <iframe title="geowidget" src={path}></iframe>
+      <iframe title="geowidget" src={path} />
     </div>
   );
 };
