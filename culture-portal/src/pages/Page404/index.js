@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SearchPage from '../../components/Page404Component'
+import Page404Component from '../../components/Page404Component';
 
 class Page404 extends Component {
     componentWillMount() {
@@ -8,7 +8,7 @@ class Page404 extends Component {
     }
     render() {
         return (
-            <SearchPage />
+            <Page404Component />
         );
     }
 }
