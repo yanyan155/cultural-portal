@@ -44,7 +44,7 @@ const PortalDescriptionComponent = props => {
             { __html: i18next.t('Main-content-11', { interpolation: { escapeValue: false } }) }
           } />
         </div>
-        <div className="col-12 col-lg-4">
+        <div className="col-12 col-lg-4 flex-column-markup">
           <AuthorOfTheDayComponent />
           <MemberOfTheTeamComponent />
         </div>
