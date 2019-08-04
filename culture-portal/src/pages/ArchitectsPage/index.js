@@ -6,38 +6,37 @@ import ArchitectsAPI from "../../ArchitectsAPI";
 
 class AllArchitects extends React.Component {
   state = {
-    filtered: ArchitectsAPI.all(),
-    newList: ""
+    filtered: ArchitectsAPI.all()
   };
+
   onChange = e => {
     let currentList = ArchitectsAPI.all();
+    console.log(this.props);
 
     if (e !== "") {
       this.setState({
-        newList: currentList.filter(obj => {
-          let currentLanguage;
-          if (obj.lng === "en") {
-            currentLanguage = "searchKeyEn";
-          } else if (obj.lng === "ru") {
-            currentLanguage = "searchKeyRu";
-          } else if (obj.lng === "by") {
-            currentLanguage = "searchKeyBy";
+        filtered: currentList.filter(obj => {
+          let currentLanguage = localStorage.getItem("language");
+          let keyForSearch;
+          if (currentLanguage === "en") {
+            keyForSearch = "searchKeyEn";
+          } else if (currentLanguage === "ru") {
+            keyForSearch = "searchKeyRu";
+          } else if (currentLanguage === "by") {
+            keyForSearch = "searchKeyBy";
           }
 
           return (
-            obj[currentLanguage]
+            obj[keyForSearch]
               .toString()
               .toLowerCase()
-              .indexOf(e) !== -1
+              .indexOf(e.toLowerCase()) !== -1
           );
         })
       });
     } else {
-      this.setState({ newList: ArchitectsAPI.all() });
+      this.setState({ filtered: ArchitectsAPI.all() });
     }
-    this.setState({
-      filtered: this.state.newList
-    });
   };
 
   componentWillMount() {
