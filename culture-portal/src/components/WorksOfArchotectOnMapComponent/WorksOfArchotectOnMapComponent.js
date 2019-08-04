@@ -4,7 +4,7 @@ import'./WorksOfArchotectOnMapComponent.css';
 const WorksOfArchotectOnMapComponent = (props) => {
   let path = `https://www.google.com/maps/d/embed?${props.author.geovidgetLink}&hl=en`
   return (
-    <div className="container text-center mb-4" id="map>
+    <div className="container text-center mb-4" id="map">
       <iframe title="geowidget"  src={path}></iframe>
     </div>
   )
