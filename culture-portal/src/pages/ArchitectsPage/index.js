@@ -11,7 +11,6 @@ class AllArchitects extends React.Component {
 
   onChange = e => {
     let currentList = ArchitectsAPI.all();
-    console.log(this.props);
 
     if (e !== "") {
       this.setState({
@@ -48,7 +47,7 @@ class AllArchitects extends React.Component {
       return (
         <div>
           <SearchComponent onChange={this.onChange} />
-          <div className="container">No matches found</div>
+          <div className="container no-results">No matches found</div>
         </div>
       );
     }
