@@ -1,29 +1,31 @@
-import React from "react";
-import "./ArchitectPageNavigationComponent.css";
-import LinkComponent from "../LinkComponent";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import idGenerator from 'react-id-generator';
+import LinkComponent from '../LinkComponent';
 
-const ArchitectPageNavigationComponent = props => {
+import './ArchitectPageNavigationComponent.css';
+
+const ArchitectPageNavigationComponent = () => {
   const classNames = [
-    "fa fa-calendar-o",
-    "fa fa-table",
-    "fa fa-camera",
-    "fa fa-youtube",
-    "fa fa-globe"
+    'fa fa-calendar-o',
+    'fa fa-table',
+    'fa fa-camera',
+    'fa fa-youtube',
+    'fa fa-globe'
   ];
   const linksForNavigation = [
-    "#timeline",
-    "#works-of-author",
-    "#gallery",
-    "#youtube-video",
-    "#map"
+    '#timeline',
+    '#works-of-author',
+    '#gallery',
+    '#youtube-video',
+    '#map'
   ];
   return (
     <div className="container navigation-menu">
       <div className="const_menu">
         <div className="btn-group-vertical">
           <Link to="/" className="link-to-homepage">
-            <button className="btn btn-danger">
+            <button type="button" className="btn btn-danger">
               <i className="fa fa-home" aria-hidden="true" />
             </button>
           </Link>
@@ -31,7 +33,7 @@ const ArchitectPageNavigationComponent = props => {
             return (
               <LinkComponent
                 className={item}
-                key={index}
+                key={idGenerator()}
                 link={linksForNavigation[index]}
               />
             );

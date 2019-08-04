@@ -1,34 +1,35 @@
-import React from "react";
-import i18next from "i18next";
-
-import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
-import "./TimeLineComponent.css";
+import React from 'react';
+import i18next from 'i18next';
+import idGenerator from 'react-id-generator';
+import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import './TimeLineComponent.css';
 
 const TimeLineComponent = props => {
+  const { author } = props;
   return (
     <div className="container" id="timeline">
       <h3>{i18next.t('Timeline')}</h3>
-      <Timeline lineColor={"#ddd"}>
-        {props.author.timelineData.map((item, index) => {
+      <Timeline lineColor="#ddd">
+        {author.timelineData.map(item => {
           return (
             <TimelineItem
-              key={index}
+              key={idGenerator()}
               dateText={item.date}
-              style={{ color: "#0a02ab" }}
+              style={{ color: '#0a02ab' }}
               dateInnerStyle={{
                 backgroundImage:
-                  "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
-                color: "#fff",
-                fontSize: "22px",
-                fontWeight: "400"
+                  'linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)',
+                color: '#fff',
+                fontSize: '22px',
+                fontWeight: '400'
               }}
               bodyContainerStyle={{
                 backgroundImage:
-                  "linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)",
-                padding: "20px",
-                borderRadius: "8px",
-                boxShadow: "0.5rem 0.5rem 2rem 0 #a1c4fd",
-                color: "#0a02ab"
+                  'linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%)',
+                padding: '20px',
+                borderRadius: '8px',
+                boxShadow: '0.5rem 0.5rem 2rem 0 #a1c4fd',
+                color: '#0a02ab'
               }}
             >
               <h3>{item.date}</h3>

@@ -1,10 +1,10 @@
-import React from "react";
-import i18next from "i18next";
+import React from 'react';
+import i18next from 'i18next';
+import idGenerator from 'react-id-generator';
+import './MemberOfTheTeamComponent.css';
+import { frontmatter } from '../../authors';
 
-import "./MemberOfTheTeamComponent.css";
-import { frontmatter } from "../../authors";
-
-const MemberOfTheTeamComponent = props => {
+const MemberOfTheTeamComponent = () => {
   const listOfDevelopers = frontmatter.authors;
 
   return (
@@ -14,7 +14,7 @@ const MemberOfTheTeamComponent = props => {
         <div className="cubspinner">
           {listOfDevelopers.map((item, index) => {
             return (
-              <div className={`size${index + 1}`} key={index}>
+              <div className={`size${index + 1}`} key={idGenerator()}>
                 <a
                   href={item.gitLink}
                   target="_blank"
