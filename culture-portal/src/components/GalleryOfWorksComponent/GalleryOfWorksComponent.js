@@ -1,9 +1,10 @@
-import React from "react";
-import Gallery from "react-image-show";
-import "./GalleryOfWorksComponent.css";
+import React from 'react';
+import Gallery from 'react-image-show';
+import './GalleryOfWorksComponent.css';
 
 const GalleryOfWorksComponent = props => {
-  const galleryOfWorks = props.author.work.map(item => {
+  const { author } = props;
+  const galleryOfWorks = author.work.map(item => {
     return item.img;
   });
 
