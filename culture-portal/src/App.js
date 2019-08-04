@@ -39,6 +39,8 @@ class App extends Component {
     if (language && value !== language) {
       this.setState({ value: language });
       i18n.changeLanguage(language);
+    }
+    if (!language) {
       localStorage.setItem('language', value);
     }
   }
