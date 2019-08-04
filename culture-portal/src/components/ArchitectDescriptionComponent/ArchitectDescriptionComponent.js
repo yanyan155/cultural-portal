@@ -8,7 +8,7 @@ const ArchitectDescriptionComponent = props => {
     <div className="container description-container">
       <p>
         <img
-          src={`${window.location.origin}/${author.img}`}
+          src={props.author.img}
           alt="author"
           className="description-img"
         />
