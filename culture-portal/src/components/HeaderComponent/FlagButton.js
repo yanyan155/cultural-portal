@@ -1,16 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Flagbutton extends Component {
-    render() {
-        return (
-            <button
-                onClick={this.props.callback}
-                className="dropdown-item"
-                value={this.props.lang}
-                href="/"><img className="flag-image" src={this.props.flag} width="25" height="25" alt={this.props.country} />
-            </button>
-        )
-    }
-}
+const Flagbutton = props => {
+  const { callback, lang, flag, country } = props;
+  return (
+    <button
+      type="button"
+      onClick={callback}
+      className="dropdown-item"
+      value={lang}
+      href="/"
+    >
+      <img
+        className="flag-image"
+        src={flag}
+        width="25"
+        height="25"
+        alt={country}
+      />
+    </button>
+  );
+};
 
 export default Flagbutton;
