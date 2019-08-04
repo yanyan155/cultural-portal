@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ArchitectPageNavigationComponent from "../../components/ArchitectPageNavigationComponent/index";
@@ -6,8 +6,9 @@ import ListOfWorksComponent from "../../components/ListOfWorksComponent/";
 import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import WorksOfArchotectOnMapComponent from "../../components/WorksOfArchotectOnMapComponent";
 import ArchitectDescriptionComponent from "../../components/ArchitectDescriptionComponent/index";
-import GalleryOfWorksComponent from "../../components/GalleryOfWorksComponent/index";
 import ArchitectsAPI from "../../ArchitectsAPI";
+import GalleryOfWorksComponent from "../../components/GalleryOfWorksComponent"
+import Page404Component from '../../components/Page404Component';
 
 class Architect extends Component {
   constructor(props) {
@@ -21,18 +22,9 @@ class Architect extends Component {
 
   render() {
     if (!this.author) {
-      // сюда заимпортить страницу 404 вместо строчки ниже.
-      return <div>404. Такого архитектора нет</div>;
+      return (<Page404Component />)
     } else
       return (
-        // Компонент навигации по странице архитекторов
-        // Компонент Описания Архитектора
-        // Компонент TimeLine
-        // Компонент Список работ
-        // Компонент Видео с ютуба
-        // Компонент Карта
-        // Компонент Галерея
-        // Верстка примерная - убрать этот комментарий когда прикрутим наш сайт.
         <div>
           <ArchitectDescriptionComponent author={this.author} />
           <TimeLineComponent author={this.author} />
@@ -42,9 +34,8 @@ class Architect extends Component {
             videoId={this.author.videoId}
             author={this.author}
           />
-        
           <GalleryOfWorksComponent author={this.author} />
-          <WorksOfArchotectOnMapComponent link={this.geovidgetLink} />
+          <WorksOfArchotectOnMapComponent author={this.author} />
         </div>
       );
   }

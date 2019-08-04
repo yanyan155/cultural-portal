@@ -11,6 +11,7 @@ exports.frontmatter = {
       authorOfTheDay: "true",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn",
       searchKeyEn: "Yuri Stepanovich Ananich Minsk",
       searchKeyRu: "юрий степанович ананич минск",
       searchKeyBy: "юрый сцяпанавіч ананіч мінск",
@@ -38,33 +39,26 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "2007",
-          img:
-            "https://euroradio.fm/sites/default/files/styles/gallery_main/public/article/miniatures/2016/08/ambasada-1508.jpg?itok=RGQLj2YE"
+          img: "/works/Ananich/беларусбанк.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "2016",
-          img: "https://cdn12.img.sputnik.by/images/102933/07/1029330783.jpg"
+          img: "/works/Ananich/посольство.jpg"
         },
         {
           title: "worktitle3",
           date: "2012",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/1/14/Belarusbank_511.jpg"
+          img: "/works/Ananich/бсб-банк.jpg"
         },
         {
           title: "worktitle4",
           width: 53.898331,
           length: 27.560555,
           date: "2007",
-          img: "https://cdn11.img.sputnik.by/images/102806/87/1028068798.jpg"
-        },
-        {
-          title: "worktitle5",
-          date: "2002",
-          img: "https://cdn11.img.sputnik.by/images/103613/10/1036131020.jpg"
+          img: "/works/Ananich/нацбанк.jpg"
         }
       ]
     },
@@ -79,6 +73,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      "geovidgetLink": "mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5",
       searchKeyEn: "Leonid Mendelevich Levin Minsk",
       searchKeyRu: "леонид менделевич левин минск",
       searchKeyBy: "леанід мендзялевіч левін мінск",
@@ -110,40 +105,35 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "1969",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khatyn_Memorial%2C_Belarus.jpg/401px-Khatyn_Memorial%2C_Belarus.jpg"
+          img: "/works/Levin/Колас.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1972",
-          img:
-            "https://upload.wikimedia.org/wikipedia/ru/thumb/f/ff/Yanka-kupala-minsk.jpg/345px-Yanka-kupala-minsk.jpg"
+          img: "/works/Levin/Купала.jpg"
         },
         {
           title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1972",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Minsk_Thinker_-_panoramio.jpg/401px-The_Minsk_Thinker_-_panoramio.jpg"
+          img: "/works/Levin/Метро.jpg"
         },
         {
           title: "worktitle4",
           width: 53.898331,
           length: 27.560555,
           date: "1984",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenpl_03.jpg/375px-Lenpl_03.jpg"
+          img: "/works/Levin/Предместье.jpg"
         },
         {
           title: "worktitle5",
           width: 53.898331,
           length: 27.560555,
           date: "1980—1986",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Traeckaje_suburb-3.jpg/375px-Traeckaje_suburb-3.jpg"
+          img: "/works/Levin/Хатынь.jpg"
         }
       ]
     },
@@ -153,7 +143,7 @@ exports.frontmatter = {
       name: "name",
       date: "date",
       img: "images/Sakko.jpg",
-      videoId: "qoWJgqu47gA",
+      videoId: "IRZfWzGChyo",
       vita: "vita",
       authorOfTheDay: "false",
       lng: "en",
@@ -161,7 +151,7 @@ exports.frontmatter = {
       searchKeyRu: "джузеппе де сакко верона",
       searchKeyBy: "джузэппэ дэ сако вярона",
       birthPlace: "birthPlace",
-
+      geovidgetLink: "mid=10ZwynmgbM79zAAagBDpS4fxav_vpOQfO",
       timelineData: [
         {
           date: "1768",
@@ -182,40 +172,35 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg/225px-Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg"
+          img: "/works/Sakko/площадь.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg/225px-%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg"
+          img: "/works/Sakko/Святский.jpg"
         },
         {
           title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/225px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG"
+          img: "/works/Sakko/театр.jpg"
         },
         {
           title: "worktitle4",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/225px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG"
+          img: "/works/Sakko/щорсы.jpg"
         },
         {
           title: "worktitle5",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg/225px-%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg"
+          img: "/works/Sakko/Ciążeń.jpg"
         }
       ]
     },
@@ -230,6 +215,7 @@ exports.frontmatter = {
       authorOfTheDay: "false",
       lng: "en",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1XdWwCcjN5n_7C0kFCxcq2G2r2VYV6fFO",
       searchKeyEn: "Victor Karako grodno",
       searchKeyRu: "виктор карако гродно",
       searchKeyBy: "віктар карака гародня",
@@ -257,24 +243,21 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "1970",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DK_Novopolotsk.jpg/330px-DK_Novopolotsk.jpg"
+          img: "/works/Karako/банк.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "XVIII century",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg/225px-%C5%A0%C4%8Dorsy%2C_Chraptovi%C4%8D._%D0%A8%D1%87%D0%BE%D1%80%D1%81%D1%8B%2C_%D0%A5%D1%80%D0%B0%D0%BF%D1%82%D0%BE%D0%B2%D1%96%D1%87_%281894%29.jpg"
+          img: "/works/Karako/ЦМ.jpg"
         },
         {
           title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "2004",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/330px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg"
+          img: "/works/Karako/Школа.jpg"
         }
       ]
     },
@@ -292,6 +275,7 @@ exports.frontmatter = {
       searchKeyRu: "иосиф лангбард санкт-петербург",
       searchKeyBy: "іосіф лангбард санкт-петербург",
       birthPlace: "birthPlace",
+      geovidgetLink: "mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s",
       timelineData: [
         {
           date: "1907",
@@ -320,24 +304,21 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "1930-1934",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Gouvernementbelarus.JPG/300px-Gouvernementbelarus.JPG"
+          img: "/works/Langbard/ленинград.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1934-1939",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG/250px-%D0%94%D0%BE%D0%BC_%D0%BE%D1%84%D0%B8%D1%86%D0%B5%D1%80%D0%BE%D0%B2%2C_%D0%9C%D0%B8%D0%BD%D1%81%D0%BA.JPG"
+          img: "/works/Langbard/офицер.jpg"
         },
         {
           title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1935",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg/300px-%D0%93._%D0%9C%D0%B0%D0%B3%D1%96%D0%BB%D1%91%D1%9E_-_%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%88%D1%87%D1%8B_%D0%9B%D0%B5%D0%BD%D1%96%D0%BD%D0%B0_PICT1773.jpg"
+          img: "/works/Langbard/Правительство.jpg"
         }
       ]
     },
@@ -347,10 +328,11 @@ exports.frontmatter = {
       name: "name",
       date: "date",
       img: "images/Fontana.jpg",
-      videoId: "jsh3rExmffw",
+      videoId: "oRW-u95CTQQ",
       vita: "vita",
       authorOfTheDay: "false",
       lng: "en",
+      geovidgetLink: "mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE",
       searchKeyEn: "Paolo Antonio Domenico Fontana italy",
       searchKeyRu: "паоло антонио доменико фонтана италия",
       searchKeyBy: "паоло антоніо доменіко фонтана італія",
@@ -379,24 +361,21 @@ exports.frontmatter = {
           width: 53.898,
           length: 27.56,
           date: "1754—1770",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png/250px-%D0%97%D0%B0%D1%81%D0%BB%D0%B0%D0%B2.%D0%9F%D0%B0%D0%BB%D0%B0%D1%86_%D0%A1%D0%B0%D0%BD%D2%91%D1%83%D1%88%D0%BA%D1%96%D0%B2_%D0%B2%D1%96%D0%B4_%D0%BF%D0%B0%D1%80%D0%BA%D1%83.png"
+          img: "/works/Fontana/Винницкий.jpg"
         },
         {
           title: "worktitle2",
           width: 53.898,
           length: 27.551,
           date: "1758—1760",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinnytsia-orthodox-church-1.jpg/290px-Vinnytsia-orthodox-church-1.jpg"
+          img: "/works/Fontana/сангушко.jpg"
         },
         {
           title: "worktitle3",
           width: 53.898,
           length: 27.551,
           date: "1764 - 1774",
-          img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/W%C5%82odawa_Great_Synagogue_46.jpg/250px-W%C5%82odawa_Great_Synagogue_46.jpg"
+          img: "/works/Fontana/Синагога.jpg"
         }
       ]
     }

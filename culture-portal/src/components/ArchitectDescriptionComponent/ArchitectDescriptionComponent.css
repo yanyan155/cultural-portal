@@ -7,6 +7,7 @@ p {
 .description-container {
   padding-bottom: 50px;
 }
-h1 {
+h2 {
   color: #0275d8;
+  text-align: center;
 }
