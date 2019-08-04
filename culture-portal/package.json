@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://yanyan155.github.io/cultural-portal",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "i18next": "^17.0.6",
     "i18next-xhr-backend": "^3.0.0",
     "react": "^16.8.6",
