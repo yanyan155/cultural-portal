@@ -2,7 +2,7 @@
   "name": "culture-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://yourusername.github.io/cultural-portal",
   "dependencies": {
     "gh-pages": "^2.1.0",
     "i18next": "^17.0.6",
