@@ -7,6 +7,7 @@ import YoutubeVideoComponent from "../../components/YoutubeVideoComponent";
 import WorksOfArchotectOnMapComponent from "../../components/WorksOfArchotectOnMapComponent";
 import ArchitectDescriptionComponent from "../../components/ArchitectDescriptionComponent/index";
 import ArchitectsAPI from "../../ArchitectsAPI";
+import GalleryOfWorksComponent from "../../components/GalleryOfWorksComponent"
 
 class Architect extends Component {
   constructor(props) {

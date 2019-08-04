@@ -332,7 +332,6 @@ exports.frontmatter = {
       vita: "vita",
       authorOfTheDay: "false",
       lng: "en",
-      birthPlace: "Italy",
       geovidgetLink: "mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE",
       searchKeyEn: "Paolo Antonio Domenico Fontana italy",
       searchKeyRu: "паоло антонио доменико фонтана италия",
