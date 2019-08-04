@@ -20,4 +20,4 @@
 + -20 contentful / netlify cms is used for content management
 + +10 Portal has third language.
 
-### Mark calculation - 190
+### Mark calculation 40 + 130 + 20 = 190
