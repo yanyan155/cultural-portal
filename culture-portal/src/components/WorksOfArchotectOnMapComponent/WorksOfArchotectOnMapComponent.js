@@ -9,7 +9,7 @@ const WorksOfArchotectOnMapComponent = (props) => {
     	<h3 className="mb-3">{i18next.t('Map-title')}</h3>
     	<iframe title="geowidget"  src={path}></iframe>
     </div>
-  )
-}
+  );
+};
 
 export default WorksOfArchotectOnMapComponent;

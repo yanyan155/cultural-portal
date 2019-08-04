@@ -1,9 +1,10 @@
-import React from "react";
-import i18next from "i18next";
-
-import "./ListOfWorksComponent.css";
+import React from 'react';
+import i18next from 'i18next';
+import idGenerator from 'react-id-generator';
+import './ListOfWorksComponent.css';
 
 const ListOfWorksComponent = props => {
+  const { author } = props;
   return (
     <div className="container" id="works-of-author">
       <h3>{i18next.t('Important-works')}</h3>
@@ -15,9 +16,9 @@ const ListOfWorksComponent = props => {
           </tr>
         </thead>
         <tbody>
-          {props.author.work.map((item, index) => {
+          {author.work.map(item => {
             return (
-              <tr key={index}>
+              <tr key={idGenerator()}>
                 <td>{i18next.t(`${props.author.path}:${item.title}`)}</td>
                 <td>{item.date}</td>
               </tr>
