@@ -1,15 +1,18 @@
 import React from "react";
+
 import Gallery from "react-image-show";
 import "./GalleryOfWorksComponent.css";
+import i18next from "i18next";
 
 const GalleryOfWorksComponent = props => {
-  const galleryOfWorks = props.author.work.map(item => {
+  const { author } = props;
+  const galleryOfWorks = author.work.map(item => {
     return item.img;
   });
 
   return (
     <div className="container" id="gallery">
-      <h3 className="gallery-title">Gallery</h3>
+      <h3 className="gallery-title">{i18next.t('Gallery')}</h3>
       <Gallery
         images={galleryOfWorks}
         width="920px"

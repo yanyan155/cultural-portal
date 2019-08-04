@@ -1,14 +1,16 @@
-import React from "react";
-import "./ListOfArchitectsComponent.css";
-import LinkToTheArchitectPageComponent from "../LinkToTheArchitectPageComponent/index";
+import React from 'react';
+import idGenerator from 'react-id-generator';
+import './ListOfArchitectsComponent.css';
+import LinkToTheArchitectPageComponent from '../LinkToTheArchitectPageComponent/index';
 
 const ListOfArchitectsComponent = props => {
+  const { authors } = props;
   return (
     <div className="architect-page">
-      {props.authors.map((item, index) => {
+      {authors.map(item => {
         return (
           <LinkToTheArchitectPageComponent
-            key={index}
+            key={idGenerator()}
             link={item.path}
             name={item.name}
             date={item.date}
