@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8bd65d8eb637a66036d50335923ef0c",
+    "revision": "00b7a33e4ca87e6feb65586ef2130259",
     "url": "/cultural-portal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cultural-portal/static/css/2.0eaf8e31.chunk.css"
   },
   {
-    "revision": "83921c2b9f8a905e8cb2",
+    "revision": "781d8537e4c2145015ad",
     "url": "/cultural-portal/static/css/main.b2c16bc4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cultural-portal/static/js/2.76ae3763.chunk.js"
   },
   {
-    "revision": "83921c2b9f8a905e8cb2",
-    "url": "/cultural-portal/static/js/main.2c9dc9b7.chunk.js"
+    "revision": "781d8537e4c2145015ad",
+    "url": "/cultural-portal/static/js/main.987d110f.chunk.js"
   },
   {
     "revision": "f42ed10c3f0dca70b3ca",
