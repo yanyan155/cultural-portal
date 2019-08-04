@@ -35,9 +35,9 @@ class App extends Component {
     this.state = { value: "ru" };
   }
 
-  changeLanguage = function (event) {
+  changeLanguage = function(event) {
     let target = event.target;
-    if (event.target.classList.contains('flag-image')) {
+    if (event.target.classList.contains("flag-image")) {
       target = event.target.parentNode;
     }
     let newlang = target.value;

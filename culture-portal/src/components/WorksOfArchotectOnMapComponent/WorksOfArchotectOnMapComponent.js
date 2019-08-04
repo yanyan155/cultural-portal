@@ -1,9 +1,9 @@
-import React from 'react';
-import'./WorksOfArchotectOnMapComponent.css';
+import React from "react";
+import "./WorksOfArchotectOnMapComponent.css";
 
-const WorksOfArchotectOnMapComponent = (props) => {
+const WorksOfArchotectOnMapComponent = props => {
   // dd later to geovidgetLink to json
-	let geovidgetLink = 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s'; // delete string later
+  let geovidgetLink = "mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s"; // delete string later
   /*
 	geovidgetLink: 'mid=1azzyT0kI_WJG5h08u9p0Kt-Nv_h_FO8s', // Иосиф Григорьевич Лангбард
 	geovidgetLink: 'mid=1h1uJwA9rkRhJToIj-Wna3cup2YWiBSDE', // Паоло Антонио Доменико Фонтана
@@ -12,12 +12,12 @@ const WorksOfArchotectOnMapComponent = (props) => {
 	geovidgetLink: 'mid=1DMvXxw4BPZYozlqBwvqmgzWLMr6HpzH5', // Леонид Менделевич Левин
 	geovidgetLink: 'mid=1vhu3Tx8WxYjPhjjqoz1_mbK6wuDt-yPn', // ананич
   */
-  let path = `https://www.google.com/maps/d/embed?${geovidgetLink}&hl=en`
+  let path = `https://www.google.com/maps/d/embed?${geovidgetLink}&hl=en`;
   return (
-    <div className="container text-center mb-4">
-      <iframe title="geovidget"  src={path} width="640" height="480"></iframe>
+    <div className="container text-center mb-4" id="map">
+      <iframe title="geovidget" src={path} width="640" height="480" />
     </div>
-  )
-}
+  );
+};
 
 export default WorksOfArchotectOnMapComponent;
