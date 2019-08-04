@@ -89,7 +89,7 @@ const PortalDescriptionComponent = () => {
             }}
           />
         </div>
-        <div className="col-12 col-lg-4">
+        <div className="col-12 col-lg-4 flex-column-markup">
           <AuthorOfTheDayComponent />
           <MemberOfTheTeamComponent />
         </div>

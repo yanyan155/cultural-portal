@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchField from 'react-search-field';
+import i18next from "i18next";
 
 import './SeacrhComponent.css';
 
@@ -8,7 +9,7 @@ const SeacrhComponent = props => {
   return (
     <div className="container">
       <SearchField
-        placeholder="Enter the name of the architect"
+        placeholder={i18next.t('Search-area')}
         onChange={onChange}
         classNames="search-form"
       />

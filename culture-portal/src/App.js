@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import i18n from './i18n';
 
-import Home from './pages/MainPage';
-import AllArchitects from './pages/ArchitectsPage';
-import Architect from './pages/ArchitectorPage';
-import Page404 from './pages/Page404';
-import SomePage from './pages/SomePage';
-import Header from './components/HeaderComponent';
-import FooterComponent from './components/FooterComponent/index';
+import Home from "./pages/MainPage";
+import AllArchitects from "./pages/ArchitectsPage";
+import Architect from "./pages/ArchitectorPage";
+import Page404 from "./pages/Page404";
+import Header from "./components/HeaderComponent";
+import FooterComponent from "./components/FooterComponent/index";
 
 const architects = () => (
   <Switch>
@@ -22,7 +21,6 @@ const Main = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/architects" component={architects} />
-      <Route path="/somepage" component={SomePage} />
       <Route component={Page404} />
     </Switch>
   </main>
