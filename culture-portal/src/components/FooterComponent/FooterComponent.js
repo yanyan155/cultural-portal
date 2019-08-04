@@ -1,7 +1,7 @@
-import React from "react";
-import "./FooterComponent.css";
+import React from 'react';
+import './FooterComponent.css';
 
-const FooterComponent = props => {
+const FooterComponent = () => {
   return (
     <div className="footer">
       <p className="first-row">

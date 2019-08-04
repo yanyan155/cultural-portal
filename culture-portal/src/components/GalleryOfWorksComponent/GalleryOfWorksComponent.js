@@ -5,7 +5,8 @@ import "./GalleryOfWorksComponent.css";
 import i18next from "i18next";
 
 const GalleryOfWorksComponent = props => {
-  const galleryOfWorks = props.author.work.map(item => {
+  const { author } = props;
+  const galleryOfWorks = author.work.map(item => {
     return item.img;
   });
 

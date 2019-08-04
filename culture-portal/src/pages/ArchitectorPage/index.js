@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 import TimeLineComponent from "../../components/TimeLineComponent/index";
 import ArchitectPageNavigationComponent from "../../components/ArchitectPageNavigationComponent/index";

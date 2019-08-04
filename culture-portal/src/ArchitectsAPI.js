@@ -1,24 +1,21 @@
-// Должно быть заменено на импорт из JSON, это пример реализации.
-// Здесь описываем всю структуру работы с JSON. Понадобились какие-то
-// данные из JSON - пишем функцию если ее нет здесь, затем
-// имортируем и используем в своем компоненте.
+import ArchitectsData from './ArchitectsData';
 
 const ArchitectsAPI = {
-  architects: require("./ArchitectsData").frontmatter.authors,
-  all: function () {
+  architects: ArchitectsData.frontmatter.authors,
+  all() {
     return this.architects;
   },
-  get: function (name) {
+  get(name) {
     let author = null;
-    this.architects.map((value) => {
+    this.architects.forEach(value => {
       if (value.path === name) {
         author = value;
       }
     });
     return author;
   },
-  random: function () {
-    return this.architects[Math.floor(Math.random() * this.architects.length)];;
+  random() {
+    return this.architects[Math.floor(Math.random() * this.architects.length)];
   }
 };
 

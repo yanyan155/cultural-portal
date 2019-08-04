@@ -1,9 +1,10 @@
-import React from "react";
-import i18next from "i18next";
-import "./YoutubeVideoComponent.css";
+import React from 'react';
+import i18next from 'i18next';
+import './YoutubeVideoComponent.css';
 
 const YoutubeVideoComponent = props => {
-  const path = `https://www.youtube.com/embed/${props.videoId}`;
+  const { videoId, author } = props;
+  const path = `https://www.youtube.com/embed/${videoId}`;
   return (
     <div className="container youtube-block" id="youtube-video">
       <div className="row">
@@ -31,7 +32,7 @@ const YoutubeVideoComponent = props => {
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="exampleModalLabel">
-                    {i18next.t(`${props.author.path}:${props.author.name}`)}
+                    {i18next.t(`${author.path}:${author.name}`)}
                   </h5>
                   <button
                     type="button"
@@ -45,10 +46,7 @@ const YoutubeVideoComponent = props => {
                   </button>
                 </div>
                 <div className="modal-body">
-                  <iframe
-                    title="this is a unique title"
-                    src={path}
-                  />
+                  <iframe title="this is a unique title" src={path} />
                 </div>
                 <div className="modal-footer" />
               </div>
