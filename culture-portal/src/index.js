@@ -9,7 +9,7 @@ import './assets/styles/style.css';
 
 ReactDOM.render((
     <BrowserRouter>
-        <I18nextProvider basename="/cultural-portal" i18n={i18n}>
+        <I18nextProvider i18n={i18n}>
             <App />
         </I18nextProvider>
     </BrowserRouter>

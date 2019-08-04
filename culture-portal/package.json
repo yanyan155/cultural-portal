@@ -2,7 +2,7 @@
   "name": "culture-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yanyan155.github.io/cultural-portal",
+  "homepage": ".",
   "dependencies": {
     "gh-pages": "^2.1.0",
     "i18next": "^17.0.6",

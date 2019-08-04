@@ -1,8 +1,8 @@
 import React from "react";
+import i18next from "i18next";
 
 import Gallery from "react-image-show";
 import "./GalleryOfWorksComponent.css";
-import i18next from "i18next";
 
 const GalleryOfWorksComponent = props => {
   const { author } = props;
